@@ -1,0 +1,98 @@
+[
+  {
+    "category": "👋 Saluti & Cortesia Base",
+    "it": "Buongiorno / Salve",
+    "fr": "Bonjour",
+    "pron": "Bon-giùr"
+  },
+  {
+    "category": "👋 Saluti & Cortesia Base",
+    "it": "Buonasera",
+    "fr": "Bonsoir",
+    "pron": "Bon-suàr"
+  },
+  {
+    "category": "👋 Saluti & Cortesia Base",
+    "it": "Per favore / Per cortesia",
+    "fr": "S'il vous plaît",
+    "pron": "Sil vu ple"
+  },
+  {
+    "category": "👋 Saluti & Cortesia Base",
+    "it": "Grazie mille",
+    "fr": "Merci beaucoup",
+    "pron": "Mer-sì bo-cù"
+  },
+  {
+    "category": "👋 Saluti & Cortesia Base",
+    "it": "Prego / Non c'è di che",
+    "fr": "De rien / Je vous en prie",
+    "pron": "De riàn / Ge vuz an prì"
+  },
+  {
+    "category": "🍽️ Al Ristorante & al Bar",
+    "it": "Un tavolo per 5 persone, per favore",
+    "fr": "Une table pour cinq personnes, s'il vous plaît",
+    "pron": "Un tabl pur sank per-son, sil vu ple"
+  },
+  {
+    "category": "🍽️ Al Ristorante & al Bar",
+    "it": "Vorrei ordinare...",
+    "fr": "Je voudrais commander...",
+    "pron": "Ge vu-drè co-man-dé..."
+  },
+  {
+    "category": "🍽️ Al Ristorante & al Bar",
+    "it": "Un caffè / Un caffè con latte",
+    "fr": "Un café express / Un café au lait",
+    "pron": "Un ca-fé ex-prèss / Un ca-fé o lè"
+  },
+  {
+    "category": "🍽️ Al Ristorante & al Bar",
+    "it": "Una caraffa d'acqua (gratuita al tavolo)",
+    "fr": "Une carafe d'eau, s'il vous plaît",
+    "pron": "Un ca-raf d-ó, sil vu ple"
+  },
+  {
+    "category": "🍽️ Al Ristorante & al Bar",
+    "it": "Il conto, per favore",
+    "fr": "L'addition, s'il vous plaît",
+    "pron": "L-adissiòn, sil vu ple"
+  },
+  {
+    "category": "🍽️ Al Ristorante & al Bar",
+    "it": "Possiamo pagare separatamente?",
+    "fr": "Est-ce qu'on peut payer séparément ?",
+    "pron": "Es con pö pe-yé se-pa-re-man?"
+  },
+  {
+    "category": "🍽️ Al Ristorante & al Bar",
+    "it": "Dov'è il bagno?",
+    "fr": "Où sont les toilettes ?",
+    "pron": "U son le tuà-let?"
+  },
+  {
+    "category": "🚇 Trasporti, Taxi & Indicazioni",
+    "it": "Dov'è la stazione della metropolitana?",
+    "fr": "Où est la station de métro la plus proche ?",
+    "pron": "U è la sta-siòn de me-trò la plü prosc?"
+  },
+  {
+    "category": "🚇 Trasporti, Taxi & Indicazioni",
+    "it": "Quanto costa questo biglietto?",
+    "fr": "Combien coûte ce ticket ?",
+    "pron": "Com-biàn cut sö ti-kè?"
+  },
+  {
+    "category": "🚇 Trasporti, Taxi & Indicazioni",
+    "it": "Stiamo andando a...",
+    "fr": "Nous allons à...",
+    "pron": "Nu zal-lon a..."
+  },
+  {
+    "category": "🚇 Trasporti, Taxi & Indicazioni",
+    "it": "Può aiutarci, per favore?",
+    "fr": "Pouvez-vous nous aider, s'il vous plaît ?",
+    "pron": "Pu-ve vu nu zé-dé, sil vu ple?"
+  }
+]

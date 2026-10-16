@@ -1,0 +1,2818 @@
+{
+  "name": "PARIGI",
+  "year": 2026,
+  "timezone": "Europe/Paris",
+  "dates": {
+    "start": "2026-11-11",
+    "end": "2026-11-16",
+    "label": "11 — 16 NOVEMBRE 2026"
+  },
+  "hotel": {
+    "name": "Hotel Apollinaire",
+    "address": "39 Rue Delambre, Paris",
+    "area": "Montparnasse",
+    "checkIn": "15:00",
+    "checkOut": "11:00",
+    "website": "https://www.hotel-apollinaire.com/",
+    "maps": "https://maps.apple.com/?daddr=39+Rue+Delambre%2C+Paris&dirflg=d",
+    "coordinates": {
+      "lat": 48.84173,
+      "lon": 2.32894
+    }
+  },
+  "days": [
+    {
+      "id": "day1",
+      "date": "2026-11-11",
+      "dateLabel": "Mercoledì 11 Novembre",
+      "subtitle": "Arrivo & Tour Eiffel",
+      "accent": "#FF453A",
+      "stops": [
+        {
+          "id": "d1-volo-palermo-pmo-parigi-orly-ory",
+          "kind": "flight",
+          "kicker": "VOLO DI ANDATA",
+          "title": "✈️ Volo Palermo (PMO) ➔ Parigi Orly (ORY)",
+          "timeLabel": "Partenza ore 11:35 ➔ Arrivo ore 14:10",
+          "start": "11:35",
+          "end": "14:10",
+          "durationMinutes": 155,
+          "place": "",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.72624,
+            "lon": 2.36525
+          },
+          "website": null,
+          "links": [
+            {
+              "label": "📲 Apple Wallet",
+              "href": "shoebox://"
+            },
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Paris+Orly+Airport"
+            }
+          ],
+          "tag": "",
+          "summary": "",
+          "highlights": [],
+          "tip": "",
+          "editorialIntro": "",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null
+        },
+        {
+          "id": "d1-check-in-hotel-apollinaire",
+          "kind": "hotel",
+          "kicker": "",
+          "title": "Check-in · Hotel Apollinaire",
+          "timeLabel": "16:00–16:30 • Hotel Apollinaire",
+          "start": "16:00",
+          "end": "16:30",
+          "durationMinutes": 30,
+          "place": "Hotel Apollinaire · 39 Rue Delambre",
+          "priority": "essential",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.84173,
+            "lon": 2.32894
+          },
+          "website": "https://www.hotel-apollinaire.com/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Hotel+Apollinaire+39+Rue+Delambre+Paris"
+            }
+          ],
+          "tag": "",
+          "summary": "",
+          "highlights": [],
+          "tip": "",
+          "editorialIntro": "",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "transportBefore": {
+            "label": "VERSO HOTEL APOLLINAIRE",
+            "distance": "",
+            "options": [
+              {
+                "icon": "🚇",
+                "name": "M14 ➔ M4",
+                "time": "~35–45 min porta a porta",
+                "price": "€14/p",
+                "href": "https://maps.apple.com/?saddr=48.72624%2C2.36525&daddr=48.84173%2C2.32894&dirflg=r",
+                "shortName": "Metro 14+4",
+                "shortTime": "35–45 min",
+                "shortPrice": "€14/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "~35–65 min (traffico variabile)",
+                "price": "~€35–70 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.84173&dropoff%5Blongitude%5D=2.32894&dropoff%5Bnickname%5D=Check-in+%C2%B7+Hotel+Apollinaire",
+                "shortName": "Uber",
+                "shortTime": "35–65 min",
+                "shortPrice": "~€35–70"
+              }
+            ],
+            "originStopId": "d1-volo-palermo-pmo-parigi-orly-ory",
+            "originTitle": "✈️ Volo Palermo (PMO) ➔ Parigi Orly (ORY)",
+            "destinationStopId": "d1-check-in-hotel-apollinaire",
+            "destinationTitle": "Check-in · Hotel Apollinaire",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "mapDestination": "Hotel Apollinaire, 39 Rue Delambre, 75014 Paris"
+        },
+        {
+          "id": "d1-passeggiata-attorno-alla-tour-eiffel",
+          "kind": "place",
+          "kicker": "",
+          "title": "Tour Eiffel",
+          "timeLabel": "17:15–18:15 • Champ de Mars & Trocadéro",
+          "start": "17:15",
+          "end": "18:15",
+          "durationMinutes": 60,
+          "place": "Champ de Mars & Trocadéro",
+          "priority": "essential",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.85837,
+            "lon": 2.29448
+          },
+          "website": "https://www.toureiffel.paris/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Eiffel+Tower+Paris"
+            }
+          ],
+          "tag": "Passeggiata Iconica",
+          "summary": "Primo magnifico impatto con Parigi. Progettata da Gustave Eiffel per l'Esposizione Universale del 1889, la struttura in ferro battuto alta 330 metri domina la città. La cosa migliore non è restare fermi sotto la torre: fate un piccolo circuito Trocadéro → Pont d’Iéna → Champ de Mars per vedere la struttura cambiare prospettiva.",
+          "highlights": [
+            "Champ de Mars: Vasto giardino ideale per scattare foto al pilone sud.",
+            "Esplanade du Trocadéro: Il punto panoramico rialzato per la vista frontale perfetta.",
+            "Luci della sera: Allo scoccare di ogni ora dopo il tramonto, si illumina con 20.000 lampadine scintillanti per 5 minuti."
+          ],
+          "tip": "Per fotografie meno affollate, fate una breve deviazione verso Avenue de Camoëns prima di scendere al Trocadéro. Per ridurre la fatica, usate Trocadéro come punto alto e procedete prevalentemente in discesa.",
+          "editorialIntro": "La Tour Eiffel è molto più interessante quando la si guarda da più prospettive invece di fermarsi sotto la struttura. Il percorso tra Trocadéro, Pont d’Iéna e Champ de Mars permette di percepirne le proporzioni, la trama metallica e il modo in cui cambia con la luce del tardo pomeriggio.",
+          "audioGuide": {
+            "title": "Tour Eiffel",
+            "text": "Ti trovi davanti al monumento che più di ogni altro identifica Parigi nel mondo. Eppure, quando venne progettata per l’Esposizione Universale del 1889, la Tour Eiffel era tutt’altro che amata da tutti. La sua costruzione doveva celebrare il centenario della Rivoluzione francese e dimostrare la potenza dell’ingegneria moderna. Gustave Eiffel, insieme ai suoi collaboratori Maurice Koechlin ed Émile Nouguier, sviluppò una struttura composta da migliaia di elementi metallici uniti da milioni di rivetti. L’idea rivoluzionaria non era soltanto costruire in altezza, ma farlo con una struttura relativamente leggera e capace di resistere al vento.\n\nMolti artisti e scrittori dell’epoca firmarono proteste contro quella che consideravano una gigantesca ciminiera industriale nel cuore della città. La torre avrebbe dovuto restare in piedi soltanto vent’anni, ma venne salvata anche grazie alla sua utilità per gli esperimenti scientifici e, soprattutto, per le trasmissioni radio. Nel tempo ciò che sembrava un corpo estraneo si trasformò nel simbolo stesso di Parigi.\n\nOra guarda la torre da una certa distanza, possibilmente dal Trocadéro. Da qui la struttura sembra quasi un disegno sottile, perfettamente simmetrico. Nota come le quattro grandi gambe si aprano alla base e poi convergano progressivamente verso l’alto. La forma non è puramente decorativa: nasce da esigenze strutturali e aerodinamiche. Eiffel voleva che la torre resistesse al vento senza diventare eccessivamente pesante.\n\nAdesso avvicinati. Dal Pont d’Iéna e poi dal Champ de Mars la percezione cambia completamente. Sotto la torre, le travi sembrano molto più massicce e la complessità della struttura diventa evidente. Alza lo sguardo e osserva la rete di elementi metallici: ciò che da lontano sembra semplice è in realtà una costruzione estremamente articolata.\n\nUn dettaglio curioso riguarda il colore. La Tour Eiffel non è sempre stata della stessa tonalità: nel corso della sua storia è stata ridipinta numerose volte, passando attraverso sfumature differenti. La manutenzione della struttura metallica è fondamentale e la verniciatura serve anche a proteggerla dalla corrosione.\n\nSe sei qui nel tardo pomeriggio, osserva come la luce cambia il colore del metallo. Quando il sole cala, la torre assume toni più caldi e poco dopo entra in scena l’illuminazione artificiale. La sera, a intervalli regolari, le luci scintillanti trasformano completamente la sua presenza.\n\nPer godertela senza affaticarti, il percorso migliore è sfruttare il Trocadéro come punto alto e poi procedere in discesa verso la Senna e il Champ de Mars. Evita salite e discese inutili. Un piccolo consiglio fotografico: Avenue de Camoëns offre una prospettiva elegante e spesso meno congestionata rispetto alle terrazze principali del Trocadéro.\n\nIl modo migliore per visitare la Tour Eiffel, in questo itinerario, non è inseguire ogni punto panoramico. È osservarla cambiare mentre ti muovi: lontana, vicina, riflessa nell’acqua, incorniciata dagli edifici e infine illuminata. Quando avrai finito questo piccolo circuito, non avrai semplicemente visto la Tour Eiffel: avrai capito perché una struttura nata come esperimento temporaneo è diventata il volto di Parigi."
+          },
+          "photo": {
+            "caption": "Tour Eiffel",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Eiffel_Tower_%40_Paris_%2825437573152%29.jpg/1280px-Eiffel_Tower_%40_Paris_%2825437573152%29.jpg"
+          },
+          "booking": null,
+          "officialWebsite": "https://www.toureiffel.paris/",
+          "transportBefore": {
+            "label": "COME ARRIVARE",
+            "originStopId": "d1-check-in-hotel-apollinaire",
+            "originTitle": "Check-in · Hotel Apollinaire",
+            "destinationStopId": "d1-passeggiata-attorno-alla-tour-eiffel",
+            "destinationTitle": "Tour Eiffel",
+            "options": [
+              {
+                "icon": "🚇",
+                "name": "Metro",
+                "time": "25–30 min",
+                "price": "€2,55/p",
+                "href": "https://maps.apple.com/?saddr=48.84173%2C2.32894&daddr=48.85837%2C2.29448&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "25–30 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "15–25 min",
+                "price": "~€15–25 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.85837&dropoff%5Blongitude%5D=2.29448&dropoff%5Bnickname%5D=Tour+Eiffel",
+                "shortName": "Uber",
+                "shortTime": "15–25 min",
+                "shortPrice": "~€15–25"
+              }
+            ],
+            "distance": "",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "mapDestination": "Tour Eiffel, 5 Avenue Anatole France, 75007 Paris"
+        },
+        {
+          "id": "d1-giro-in-battello-sulla-senna",
+          "kind": "place",
+          "kicker": "",
+          "title": "Crociera sulla Senna",
+          "timeLabel": "19:00–20:00 • Pont de l’Alma · crociera panoramica",
+          "start": "19:00",
+          "end": "20:00",
+          "durationMinutes": 60,
+          "place": "Bateaux-Mouches · Port de la Conférence",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.8609,
+            "lon": 2.291
+          },
+          "website": "https://www.bateaux-mouches.fr/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Bateaux+Mouches+Paris"
+            }
+          ],
+          "tag": "Crociera serale · €17 online / €20 standard",
+          "summary": "Crociera panoramica serale sulla Senna. La navigazione dura circa un’ora e parte dal Pont de l’Alma.",
+          "highlights": [
+            "I ponti storici: Pont Alexandre III con i suoi ornamenti dorati e il medievale Pont Neuf.",
+            "Scorci prospettici: Facciata serale del Louvre, Musée d'Orsay e sagoma di Notre-Dame."
+          ],
+          "tip": "Arrivate al pontile con un po’ di anticipo; in bassa stagione le partenze sono frequenti ma non serve una fascia oraria specifica per il biglietto standard.",
+          "editorialIntro": "La crociera sulla Senna è uno dei modi migliori per capire la geografia di Parigi senza aggiungere altra camminata. Dal fiume si leggono bene le distanze tra Tour Eiffel, Invalides, Musée d’Orsay, Louvre, Île de la Cité e Notre-Dame.",
+          "audioGuide": null,
+          "photo": {
+            "caption": "Crociera sulla Senna",
+            "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bateaux%20Mouches%20on%20the%20Seine%2C%20Paris%20July%202013.jpg?width=1280"
+          },
+          "booking": {
+            "kind": "Crociera",
+            "url": "https://www.bateaux-mouches.fr/fr/reservation/billets"
+          },
+          "transportBefore": {
+            "label": "VERSO BATEAUX-MOUCHES",
+            "distance": "",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "12 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.85837%2C2.29448&daddr=48.8609%2C2.291&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "12 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "5 min",
+                "price": "~€10–15 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.8609&dropoff%5Blongitude%5D=2.291&dropoff%5Bnickname%5D=Crociera+sulla+Senna",
+                "shortName": "Uber",
+                "shortTime": "5 min",
+                "shortPrice": "~€10–15"
+              }
+            ],
+            "originStopId": "d1-passeggiata-attorno-alla-tour-eiffel",
+            "originTitle": "Tour Eiffel",
+            "destinationStopId": "d1-giro-in-battello-sulla-senna",
+            "destinationTitle": "Crociera sulla Senna",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.bateaux-mouches.fr/fr",
+          "mapDestination": "Bateaux-Mouches, Port de la Conférence, Pont de l’Alma, 75008 Paris"
+        },
+        {
+          "id": "d1-cena-le-relais-de-l-entrecote",
+          "kind": "food",
+          "kicker": "",
+          "title": "Cena · Le Relais de l’Entrecôte",
+          "timeLabel": "20:30 - 22:00 • Av. Montaigne",
+          "start": "20:30",
+          "end": "22:00",
+          "durationMinutes": 90,
+          "place": "Le Relais de l’Entrecôte · Marbeuf",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.8446,
+            "lon": 2.3283
+          },
+          "website": "https://www.relaisdelentrecote.com/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Relais+de+l'Entrecote+Paris"
+            }
+          ],
+          "tag": "",
+          "summary": "Celebre bistrot famoso per il suo unico menu: insalata con noci, controfiletto di manzo servito in due tempi con salsa verde segreta e patatine fritte a volontà.",
+          "highlights": [
+            "Atmosfera vivace da brasserie.",
+            "Menu semplice: ideale dopo una giornata di viaggio.",
+            "Posizione comoda rispetto alla zona Tour Eiffel / Alma."
+          ],
+          "tip": "Non ordinate troppo prima del piatto principale: la seconda porzione arriva quando avete quasi terminato la prima. Se trovate molta fila, valutate senza esitazioni un’alternativa vicina: la prima sera deve restare leggera. Tappa facoltativa se il volo o il trasferimento da Orly subiscono ritardi.",
+          "editorialIntro": "È un’esperienza parigina più che una semplice cena: niente vera scelta del piatto principale, servizio rapido e il celebre controfiletto con salsa della casa e pommes frites, spesso servito in due passaggi.",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "transportBefore": {
+            "label": "VERSO LE RELAIS DE L'ENTRECÔTE",
+            "distance": "",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "10 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.8609%2C2.291&daddr=48.8446%2C2.3283&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "10 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "4 min",
+                "price": "~€10–15 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.8446&dropoff%5Blongitude%5D=2.3283&dropoff%5Bnickname%5D=Cena+%C2%B7+Le+Relais+de+l%E2%80%99Entrec%C3%B4te",
+                "shortName": "Uber",
+                "shortTime": "4 min",
+                "shortPrice": "~€10–15"
+              }
+            ],
+            "originStopId": "d1-giro-in-battello-sulla-senna",
+            "originTitle": "Crociera sulla Senna",
+            "destinationStopId": "d1-cena-le-relais-de-l-entrecote",
+            "destinationTitle": "Cena · Le Relais de l’Entrecôte",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.lerelaisdelentrecote.com/",
+          "mapDestination": "Le Relais de l’Entrecôte, 15 Rue Marbeuf, 75008 Paris"
+        },
+        {
+          "id": "2026-11-11-rientro-hotel",
+          "kind": "hotel",
+          "title": "Rientro in hotel",
+          "place": "Hotel Apollinaire · 39 Rue Delambre",
+          "start": "22:00",
+          "end": "22:30",
+          "durationMinutes": 30,
+          "timeLabel": "22:00 - 22:30 • Hotel Apollinaire",
+          "coordinates": {
+            "lat": 48.8428,
+            "lon": 2.3271
+          },
+          "priority": "fixed",
+          "resilience": "FIXED",
+          "summary": "",
+          "transportBefore": {
+            "label": "RITORNO IN HOTEL",
+            "distance": "",
+            "originStopId": "d1-cena-le-relais-de-l-entrecote",
+            "originTitle": "Cena · Le Relais de l’Entrecôte",
+            "destinationStopId": "2026-11-11-rientro-hotel",
+            "destinationTitle": "Rientro in hotel",
+            "options": [
+              {
+                "icon": "🚇",
+                "name": "Metro",
+                "time": "25–30 min",
+                "price": "€2,55/p",
+                "href": "https://maps.apple.com/?saddr=48.8446%2C2.3283&daddr=48.8428%2C2.3271&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "25–30 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "15–20 min",
+                "price": "~€15–25 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.8428&dropoff%5Blongitude%5D=2.3271&dropoff%5Bnickname%5D=Rientro+in+hotel",
+                "shortName": "Uber",
+                "shortTime": "15–20 min",
+                "shortPrice": "~€15–25"
+              }
+            ],
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "mapDestination": "Hotel Apollinaire, 39 Rue Delambre, 75014 Paris"
+        }
+      ],
+      "pace": "RELAXED",
+      "paceNote": "Giornata di arrivo · margini ampi"
+    },
+    {
+      "id": "day2",
+      "date": "2026-11-12",
+      "dateLabel": "Giovedì 12 Novembre",
+      "subtitle": "Versailles & Invalides",
+      "accent": "#FF9F0A",
+      "stops": [
+        {
+          "id": "d2-colazione-boulangerie-montparnasse",
+          "kind": "food",
+          "kicker": "",
+          "title": "Colazione · Montparnasse",
+          "timeLabel": "07:00 - 07:30 • Colazione rapida prima della partenza",
+          "start": "07:00",
+          "end": "07:30",
+          "durationMinutes": 30,
+          "place": "Colazione rapida prima della partenza",
+          "priority": "optional",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.8422,
+            "lon": 2.327
+          },
+          "website": null,
+          "links": [],
+          "tag": "",
+          "summary": "Colazione veloce con prodotti da forno freschi prima di prendere il treno per Versailles.",
+          "highlights": [],
+          "tip": "",
+          "editorialIntro": "",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "mealRecommendations": [
+            {
+              "name": "La Parisienne · Odessa",
+              "meta": "€ · boulangerie",
+              "rating": "3,8",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d7078616-Reviews-La_Parisienne-Paris_Ile_de_France.html"
+            },
+            {
+              "name": "Harmony Café Paris",
+              "meta": "€€ · café",
+              "rating": "4,3",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d4263607-Reviews-Harmony_Cafe_Paris-Paris_Ile_de_France.html"
+            },
+            {
+              "name": "Les Fauves",
+              "meta": "€€ · francese",
+              "rating": "4,2",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d12058517-Reviews-Les_Fauves-Paris_Ile_de_France.html"
+            }
+          ],
+          "mapDestination": "Montparnasse, Paris",
+          "transportBefore": {
+            "origin": "Hotel Apollinaire, 39 Rue Delambre, 75014 Paris",
+            "destination": "Montparnasse, Paris",
+            "destinationStopId": "d2-colazione-boulangerie-montparnasse",
+            "options": [
+              {
+                "name": "A piedi",
+                "time": "~5–8 min",
+                "price": "gratis",
+                "icon": "🚶",
+                "href": "https://maps.apple.com/?saddr=39+Rue+Delambre%2C+Paris&daddr=48.8422%2C2.327&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "5–8 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "name": "Uber",
+                "time": "~3–5 min",
+                "price": "~€10–15 /auto · stima",
+                "icon": "🚗",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.8422&dropoff%5Blongitude%5D=2.327&dropoff%5Bnickname%5D=Colazione+%C2%B7+Montparnasse",
+                "shortName": "Uber",
+                "shortTime": "3–5 min",
+                "shortPrice": "~€10–15"
+              }
+            ],
+            "destinationTitle": "Colazione · Montparnasse",
+            "distance": "",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          }
+        },
+        {
+          "id": "d2-reggia-di-versailles-giardini",
+          "kind": "place",
+          "kicker": "",
+          "title": "Versailles",
+          "timeLabel": "09:30–13:00 • Palazzo 09:30–12:15 · giardini 12:15–13:00",
+          "start": "09:30",
+          "end": "13:00",
+          "durationMinutes": 210,
+          "place": "Palazzo + giardini essenziali",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.80486,
+            "lon": 2.12036
+          },
+          "website": "https://www.chateauversailles.fr/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Chateau+de+Versailles"
+            }
+          ],
+          "tag": "Bassa stagione · €22 EEA / €25 standard",
+          "summary": "La maestosa residenza reale voluta da Luigi XIV, simbolo dell'assolutismo francese e capolavoro dell'arte barocca.",
+          "highlights": [
+            "Galleria degli Specchi (Galerie des Glaces): Sala di 73 metri decorata con 357 specchi, scenografia di storici trattati di pace.",
+            "Grandi Appartamenti del Re e della Regina: Sfarzose stanze affrescate dedicate alle divinità dell'antichità.",
+            "Giardini di Versailles: Disegnati da André Le Nôtre tra fontane, bosquets scultorei e il Grand Canal."
+          ],
+          "tip": "Ingresso al Palazzo alle 09:30 (biglietto nominativo). Prevedere controlli e arrivo in anticipo. In 3h30 privilegiare Palazzo e giardini vicini; Trianon non realistico. Rientro e trasferimento a Invalides da pianificare con margine.",
+          "editorialIntro": "Versailles è il luogo in cui l’idea di monarchia assoluta diventa spazio, prospettiva e cerimoniale. La visita funziona meglio se si privilegia il Palazzo e si considera il giardino come completamento, non come una seconda maratona.",
+          "audioGuide": {
+            "title": "Versailles",
+            "text": "Versailles non nacque come grande palazzo reale. All’inizio era un modesto padiglione di caccia voluto da Luigi tredicesimo. Fu suo figlio, Luigi quattordicesimo, il Re Sole, a trasformare questo luogo in uno dei più potenti strumenti di rappresentazione politica della monarchia europea.\n\nDal 1682 la corte e il governo si trasferirono stabilmente qui. Versailles divenne così non soltanto una residenza, ma una vera macchina di potere. Migliaia di persone vivevano e lavoravano attorno al sovrano, e ogni gesto della giornata reale seguiva un cerimoniale preciso.\n\nQuando attraversi gli Appartamenti Reali, prova a immaginare che queste stanze non fossero semplicemente decorative. Ogni sala aveva una funzione politica, simbolica o rituale. I soffitti celebravano il potere del re attraverso riferimenti mitologici, mentre la disposizione degli ambienti regolava chi poteva avvicinarsi al sovrano e fino a quale distanza.\n\nLa Galleria degli Specchi è il punto culminante del percorso. Fu progettata da Jules Hardouin-Mansart e decorata da Charles Le Brun. Da un lato grandi finestre si affacciano sui giardini, dall’altro gli specchi moltiplicano la luce e le prospettive. All’epoca gli specchi erano beni costosi e tecnologicamente sofisticati, quindi la loro presenza aveva anche un valore di prestigio.\n\nFermati al centro della galleria e guarda alternativamente verso le finestre e verso gli specchi. Il vero progetto non è soltanto la sala: è il rapporto tra interno e paesaggio. I giardini di André Le Nôtre diventano una continuazione del palazzo.\n\nLa Galleria degli Specchi fu anche teatro di eventi storici molto posteriori alla monarchia. Nel 1871 vi venne proclamato l’Impero tedesco e nel 1919 vi fu firmato il Trattato di Versailles dopo la Prima guerra mondiale. Questo rende la sala un luogo simbolico non solo per la Francia, ma per la storia europea.\n\nQuando esci nei giardini, osserva l’asse centrale. Tutto è costruito per creare prospettive lunghissime e controllate. La natura viene disciplinata attraverso geometrie, parterre, fontane e boschetti.\n\nPer questa visita non cercare di vedere ogni angolo. Versailles è enorme. La strategia migliore è concentrarsi sul Palazzo, sulla Galleria degli Specchi e sulla parte dei giardini più vicina alla residenza. Raggiungere Trianon e Grand Canal può trasformare una visita piacevole in una maratona.\n\nUn dettaglio utile: guarda Versailles come un sistema. Le stanze, le finestre, i giardini e le prospettive servono tutti alla stessa idea: mostrare che il potere del re ordina lo spazio e, simbolicamente, il mondo intero. Quando esci, probabilmente ricorderai la Galleria degli Specchi. Ma la vera particolarità di Versailles è che l’intero complesso è costruito per raccontare una sola persona: Luigi quattordicesimo."
+          },
+          "photo": {
+            "caption": "Versailles",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Le_Chateau_de_Versailles_%2C_Palace_of_Versailles%2C_France_6.JPG/1280px-Le_Chateau_de_Versailles_%2C_Palace_of_Versailles%2C_France_6.JPG"
+          },
+          "booking": {
+            "kind": "Ingresso",
+            "url": "https://ticket.chateauversailles.fr/en"
+          },
+          "transportBefore": {
+            "label": "VERSO REGGIA DI VERSAILLES",
+            "distance": "",
+            "options": [
+              {
+                "icon": "🚆",
+                "name": "Transilien N → Versailles Chantiers",
+                "time": "~55–70 min totali con cammino",
+                "price": "€2,55/p",
+                "href": "https://maps.apple.com/?saddr=48.8422%2C2.327&daddr=48.80486%2C2.12036&dirflg=r",
+                "shortName": "Treno N",
+                "shortTime": "~55–70m",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Van Uber",
+                "time": "30 min",
+                "price": "~€35–60 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.80486&dropoff%5Blongitude%5D=2.12036&dropoff%5Bnickname%5D=Versailles",
+                "shortName": "Uber",
+                "shortTime": "35–65m",
+                "shortPrice": "~€35–60"
+              }
+            ],
+            "originStopId": "d2-colazione-boulangerie-montparnasse",
+            "originTitle": "Colazione · Montparnasse",
+            "destinationStopId": "d2-reggia-di-versailles-giardini",
+            "destinationTitle": "Versailles",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.chateauversailles.fr/",
+          "mapDestination": "Château de Versailles, Place d’Armes, 78000 Versailles"
+        },
+        {
+          "id": "d2-pranzo-economico-versailles",
+          "kind": "food",
+          "kicker": "",
+          "title": "Pranzo · Versailles",
+          "timeLabel": "13:15–14:00 • Versailles",
+          "start": "13:15",
+          "end": "14:00",
+          "durationMinutes": 45,
+          "place": "Versailles",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.80486,
+            "lon": 2.12036
+          },
+          "website": "",
+          "links": [],
+          "tag": "",
+          "summary": "Pranzo semplice e conveniente a Versailles prima del rientro verso Parigi.",
+          "highlights": [
+            "Galette, crêpe o piatto semplice da brasserie.",
+            "Budget €–€€.",
+            "Pausa pratica prima del rientro verso Parigi."
+          ],
+          "tip": "Mantieni il pranzo entro un’ora: dopo il rientro a Parigi è prevista una visita breve a Invalides.",
+          "editorialIntro": "Dopo Palazzo e giardini serve soprattutto una pausa pratica. Una crêperie o una brasserie permette di mangiare francese senza appesantire il pomeriggio.",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "mealRecommendations": [
+            {
+              "name": "Crêperie La Place",
+              "meta": "€ · crêperie",
+              "rating": "4,3",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187148-d2224183-Reviews-Creperie_la_Place-Versailles_Yvelines_Ile_de_France.html"
+            },
+            {
+              "name": "Le Paris Versailles",
+              "meta": "€€ · francese",
+              "rating": "4,5",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187148-d13954784-Reviews-Le_Paris_Versailles-Versailles_Yvelines_Ile_de_France.html"
+            },
+            {
+              "name": "Le Sept",
+              "meta": "€€ · francese",
+              "rating": "4,6",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187148-d6564814-Reviews-Le_Sept-Versailles_Yvelines_Ile_de_France.html"
+            }
+          ],
+          "transportBefore": {
+            "label": "COME ARRIVARE",
+            "originStopId": "d2-reggia-di-versailles-giardini",
+            "originTitle": "Versailles",
+            "destinationStopId": "d2-pranzo-economico-versailles",
+            "destinationTitle": "Pranzo · Versailles",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "5–15 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.80486%2C2.12036&daddr=48.80486%2C2.12036&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "5–15 min",
+                "shortPrice": "gratis"
+              }
+            ],
+            "distance": "",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "mapDestination": "Versailles centre, Versailles"
+        },
+        {
+          "id": "d5-hotel-des-invalides-tomba-di-napoleone",
+          "kind": "place",
+          "kicker": "",
+          "title": "Invalides",
+          "timeLabel": "15:30 - 16:30 • Hôtel des Invalides",
+          "start": "15:30",
+          "end": "16:30",
+          "durationMinutes": 60,
+          "place": "Hôtel des Invalides",
+          "priority": "optional",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.85661,
+            "lon": 2.31264
+          },
+          "website": "https://www.musee-armee.fr/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Les+Invalides+Paris"
+            }
+          ],
+          "tag": "Musée de l’Armée + Dôme · €17",
+          "summary": "Visita mirata al Dôme e alla tomba di Napoleone dopo il rientro da Versailles.",
+          "highlights": [
+            "Dôme dorato: osservatelo anche dal cortile.",
+            "Tomba di Napoleone: vista dall’alto e dal livello inferiore.",
+            "Architettura della chiesa del Dôme."
+          ],
+          "tip": "Concentrati su Dôme e tomba di Napoleone. Il museo completo richiederebbe molto più tempo e renderebbe la giornata troppo densa. Partire da Versailles entro le 14:05 circa; verificare il collegamento RER/treno in giornata.",
+          "editorialIntro": "Dopo Versailles, Invalides funziona bene come seconda visita perché resta compatta e può essere affrontata in circa un’ora. Il Dôme e la tomba di Napoleone sono il nucleo essenziale; non serve aggiungere l’intero museo militare.",
+          "audioGuide": {
+            "title": "Les Invalides",
+            "text": "L’Hôtel des Invalides fu fondato nel 1670 da Luigi quattordicesimo. Il suo scopo originario era accogliere soldati anziani, feriti o privi di mezzi. Era quindi contemporaneamente ospedale, casa di riposo, caserma e simbolo della protezione offerta dal sovrano ai suoi veterani.\n\nIl complesso è enorme e include musei, cortili e chiese. Nel vostro itinerario, però, la parte più importante è il Dôme des Invalides e la tomba di Napoleone.\n\nLa grande cupola dorata fu progettata da Jules Hardouin-Mansart e rappresenta uno dei profili più riconoscibili dello skyline parigino. Quando entri, alza lo sguardo verso la decorazione interna della cupola. La verticalità dello spazio serve a creare una sensazione di solennità.\n\nNapoleone morì nel 1821 in esilio sull’isola di Sant’Elena. Quasi vent’anni dopo, nel 1840, il re Luigi Filippo autorizzò il ritorno delle sue spoglie in Francia. L’evento fu una grande operazione politica e simbolica.\n\nLa tomba venne collocata sotto la cupola e oggi il grande sarcofago occupa il centro dello spazio.\n\nPrima di scendere al livello inferiore, guardalo dalla balaustra superiore. La posizione della tomba è studiata affinché il visitatore guardi verso il basso. Questo gesto è stato spesso interpretato come un modo simbolico per costringere chi osserva a chinare il capo davanti a Napoleone.\n\nPoi scendi e osserva il sarcofago da vicino. Le proporzioni sembrano ancora più monumentali.\n\nAttorno alla tomba si sviluppano rilievi e iscrizioni che celebrano le imprese e le riforme dell’imperatore.\n\nRicorda però che Napoleone è una figura storica complessa. Fu generale rivoluzionario, imperatore, riformatore, legislatore e protagonista di guerre che coinvolsero gran parte dell’Europa.\n\nIl museo militare degli Invalides è estremamente ricco, ma richiederebbe diverse ore. Nel vostro programma non avrebbe senso affrontarlo completamente.\n\nSe il gruppo è stanco, questa è la prima visita che puoi accorciare. Concentrati sul Dôme, sulla tomba e sulla vista della cupola dall’esterno.\n\nUn dettaglio interessante è proprio il rapporto tra architettura e memoria. Gli Invalides nacquero per i soldati comuni, ma oggi il punto più famoso del complesso è la tomba di uno dei più celebri comandanti militari della storia.\n\nQuando esci, guarda di nuovo la cupola dorata. La sua brillantezza non è casuale: doveva essere visibile da lontano e comunicare prestigio, potere e continuità dello Stato francese."
+          },
+          "photo": {
+            "caption": "Invalides",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Les_Invalides_Paris.jpg/1280px-Les_Invalides_Paris.jpg"
+          },
+          "booking": {
+            "kind": "Ingresso",
+            "url": "https://billetterie.musee-armee.fr/fr-FR/produits"
+          },
+          "resilience": "FLEX",
+          "transportBefore": {
+            "label": "COME ARRIVARE",
+            "originStopId": "d2-pranzo-economico-versailles",
+            "originTitle": "Pranzo · Versailles",
+            "destinationStopId": "d5-hotel-des-invalides-tomba-di-napoleone",
+            "destinationTitle": "Invalides",
+            "options": [
+              {
+                "icon": "🚆",
+                "name": "Treno + metro",
+                "time": "55–70 min",
+                "price": "€2,55/p",
+                "href": "https://maps.apple.com/?saddr=48.80486%2C2.12036&daddr=48.85661%2C2.31264&dirflg=r",
+                "shortName": "Treno+metro",
+                "shortTime": "55–70 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber (verificare capienza)",
+                "time": "40–60 min",
+                "price": "~€35–60 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.85661&dropoff%5Blongitude%5D=2.31264&dropoff%5Bnickname%5D=Invalides",
+                "shortName": "Uber",
+                "shortTime": "40–60 min",
+                "shortPrice": "~€35–60"
+              }
+            ],
+            "distance": "",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.musee-armee.fr/",
+          "mapDestination": "Hôtel des Invalides, 129 Rue de Grenelle, 75007 Paris"
+        },
+        {
+          "id": "d2-tempo-libero",
+          "kind": "break",
+          "kicker": "",
+          "title": "Tempo libero",
+          "timeLabel": "17:00 - 19:00 • Parigi · tempo libero",
+          "start": "17:00",
+          "end": "19:00",
+          "durationMinutes": 120,
+          "place": "Parigi · tempo libero",
+          "priority": "optional",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.8428,
+            "lon": 2.3271
+          },
+          "website": "",
+          "links": [],
+          "tag": "",
+          "summary": "Tempo libero.",
+          "highlights": [],
+          "tip": "",
+          "editorialIntro": "",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "mapDestination": "Hotel Apollinaire, 39 Rue Delambre, 75014 Paris"
+        },
+        {
+          "id": "d2-cena-le-bouillon-chartier",
+          "kind": "food",
+          "kicker": "",
+          "title": "Cena · Bouillon Chartier",
+          "timeLabel": "20:00 - 21:30 • Grands Boulevards",
+          "start": "20:00",
+          "end": "21:30",
+          "durationMinutes": 90,
+          "place": "Bouillon Chartier · 7 Rue du Faubourg Montmartre",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.87191,
+            "lon": 2.34342
+          },
+          "website": "https://www.bouillon-chartier.com/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Bouillon+Chartier+Paris"
+            }
+          ],
+          "tag": "",
+          "summary": "Cena in uno storico trattoria popolare aperta nel 1896 in stile Belle Époque. Piatti francesi classici (escargots, boeuf bourguignon) a prezzi imbattibili e ordini scritti sulla tovaglia di carta.",
+          "highlights": [
+            "Sala storica e arredi d’epoca.",
+            "Piatti classici a prezzi più accessibili.",
+            "Servizio rapido e informale."
+          ],
+          "tip": "La fila può essere parte dell’esperienza, ma non deve diventare una prova di resistenza: se supera 20–30 minuti e siete stanchi, scegliete un’altra brasserie nei Grands Boulevards.",
+          "editorialIntro": "Chartier è un pezzo di Parigi popolare: grandi sale, tavoli ravvicinati, servizio veloce e piatti francesi semplici. Si viene soprattutto per l’atmosfera Belle Époque e per il ritmo da bouillon.",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "transportBefore": {
+            "label": "COME ARRIVARE",
+            "originStopId": "d2-tempo-libero",
+            "originTitle": "Tempo libero",
+            "destinationStopId": "d2-cena-le-bouillon-chartier",
+            "destinationTitle": "Cena · Bouillon Chartier",
+            "options": [
+              {
+                "icon": "🚇",
+                "name": "Metro",
+                "time": "15–25 min",
+                "price": "€2,55/p",
+                "href": "https://maps.apple.com/?saddr=48.8428%2C2.3271&daddr=48.87191%2C2.34342&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "15–25 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "10–20 min",
+                "price": "~€15–25 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.87191&dropoff%5Blongitude%5D=2.34342&dropoff%5Bnickname%5D=Cena+%C2%B7+Bouillon+Chartier",
+                "shortName": "Uber",
+                "shortTime": "10–20 min",
+                "shortPrice": "~€15–25"
+              }
+            ],
+            "distance": "",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.bouillon-chartier.com/",
+          "mapDestination": "Bouillon Chartier, 7 Rue du Faubourg Montmartre, 75009 Paris"
+        },
+        {
+          "id": "2026-11-12-rientro-hotel",
+          "kind": "hotel",
+          "title": "Rientro in hotel",
+          "place": "Hotel Apollinaire · 39 Rue Delambre",
+          "start": "21:30",
+          "end": "22:00",
+          "durationMinutes": 30,
+          "timeLabel": "21:30 - 22:00 • Hotel Apollinaire",
+          "coordinates": {
+            "lat": 48.8428,
+            "lon": 2.3271
+          },
+          "priority": "fixed",
+          "resilience": "FIXED",
+          "summary": "",
+          "transportBefore": {
+            "label": "RITORNO IN HOTEL",
+            "distance": "",
+            "originStopId": "d2-cena-le-bouillon-chartier",
+            "originTitle": "Cena · Bouillon Chartier",
+            "destinationStopId": "2026-11-12-rientro-hotel",
+            "destinationTitle": "Rientro in hotel",
+            "options": [
+              {
+                "icon": "🚇",
+                "name": "Metro",
+                "time": "20–30 min",
+                "price": "€2,55/p",
+                "href": "https://maps.apple.com/?saddr=48.87191%2C2.34342&daddr=48.8428%2C2.3271&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "20–30 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "15–25 min",
+                "price": "~€15–25 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.8428&dropoff%5Blongitude%5D=2.3271&dropoff%5Bnickname%5D=Rientro+in+hotel",
+                "shortName": "Uber",
+                "shortTime": "15–25 min",
+                "shortPrice": "~€15–25"
+              }
+            ],
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "mapDestination": "Hotel Apollinaire, 39 Rue Delambre, 75014 Paris"
+        }
+      ],
+      "pace": "BALANCED",
+      "paceNote": "Garnier alle 15:30; nessun'altra visita tra Versailles e Opéra."
+    },
+    {
+      "id": "day3",
+      "date": "2026-11-13",
+      "dateLabel": "Venerdì 13 Novembre",
+      "subtitle": "Louvre, Montmartre & Moulin Rouge",
+      "accent": "#30D158",
+      "stops": [
+        {
+          "id": "d3-colazione-cedric-grolet-opera",
+          "kind": "food",
+          "kicker": "",
+          "title": "Colazione · Cédric Grolet",
+          "timeLabel": "09:00 - 09:30 • Avenue de l'Opéra",
+          "start": "09:00",
+          "end": "09:30",
+          "durationMinutes": 30,
+          "place": "Cédric Grolet Opéra · 35 Avenue de l’Opéra",
+          "priority": "optional",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.86885,
+            "lon": 2.33273
+          },
+          "website": "https://cedric-grolet.com/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Cedric+Grolet+Opera+Paris"
+            }
+          ],
+          "tag": "",
+          "summary": "Esperienza gourmet d'eccellenza con viennoiserie e creazioni di haute pâtisserie. La sala da tè di Opéra funziona su prenotazione: mantenete la colazione breve per arrivare al Louvre senza correre. 📌 DA PRENOTARE: sala da tè Cédric Grolet Opéra. Arrivo consigliato 08:55.",
+          "highlights": [
+            "Viennoiserie sfogliate e croissant.",
+            "Frutti trompe-l’œil e pâtisserie iconiche.",
+            "Ambiente elegante ma molto frequentato."
+          ],
+          "tip": "Scegliete in anticipo cosa volete assaggiare e condividete 2–3 pezzi: risparmiate tempo e provate più specialità. Il Louvre è la priorità della giornata.",
+          "editorialIntro": "Qui la colazione diventa una piccola esperienza di haute pâtisserie contemporanea. Le creazioni sono spettacolari, ma il valore vero è osservare precisione, consistenze e presentazione senza trasformare la mattina in una degustazione troppo lunga.",
+          "audioGuide": null,
+          "photo": null,
+          "booking": {
+            "kind": "Colazione",
+            "url": "https://cedric-grolet.com/opera/en/edito/book-a-table"
+          },
+          "officialWebsite": "https://cedric-grolet.com/opera/en/",
+          "mapDestination": "Cédric Grolet Opéra, 35 Avenue de l’Opéra, 75002 Paris",
+          "transportBefore": {
+            "origin": "Hotel Apollinaire, 39 Rue Delambre, 75014 Paris",
+            "destination": "Cédric Grolet Opéra, 35 Avenue de l’Opéra, 75002 Paris",
+            "destinationStopId": "d3-colazione-cedric-grolet-opera",
+            "options": [
+              {
+                "name": "Metro",
+                "time": "~25 min",
+                "price": "€2,55/p",
+                "icon": "🚇",
+                "href": "https://maps.apple.com/?saddr=39+Rue+Delambre%2C+Paris&daddr=48.86885%2C2.33273&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "25 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "name": "Uber",
+                "time": "~15–20 min",
+                "price": "~€15–25 /auto · stima",
+                "icon": "🚗",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.86885&dropoff%5Blongitude%5D=2.33273&dropoff%5Bnickname%5D=Colazione+%C2%B7+C%C3%A9dric+Grolet",
+                "shortName": "Uber",
+                "shortTime": "15–20 min",
+                "shortPrice": "~€15–25"
+              }
+            ],
+            "destinationTitle": "Colazione · Cédric Grolet",
+            "distance": "",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          }
+        },
+        {
+          "id": "d3-museo-del-louvre",
+          "kind": "place",
+          "kicker": "",
+          "title": "Louvre",
+          "timeLabel": "10:30–13:00 • Museo del Louvre",
+          "start": "10:30",
+          "end": "13:00",
+          "durationMinutes": 150,
+          "place": "Museo del Louvre",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.86061,
+            "lon": 2.33764
+          },
+          "website": "https://www.louvre.fr/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Louvre+Museum+Paris"
+            }
+          ],
+          "tag": "Prenotazione consigliata · €22 EEA / €32 standard",
+          "summary": "Antico palazzo reale trasformato nel museo d'arte più famoso del pianeta, custode di oltre 35.000 capolavori. Tre ore sono sufficienti solo con un percorso selettivo: Gioconda, Vittoria di Samotracia, Venere di Milo, Canova, Delacroix e Piramide sono il nucleo ideale.",
+          "highlights": [
+            "La Gioconda (Mona Lisa): Il celebre ritratto di Leonardo da Vinci (Ala Denon).",
+            "Venere di Milo & Vittoria di Samotracia: Le due icone assolute della scultura greca.",
+            "Amore e Psiche: Il capolavoro in marmo di Antonio Canova.",
+            "La Libertà che guida il popolo: Il grande dipinto romantico di Eugène Delacroix.",
+            "Piramide di Vetro: L'iconico ingresso contemporaneo firmato I.M. Pei."
+          ],
+          "tip": "Entrate con una lista massima di 5–6 opere. Se la Gioconda è troppo affollata, non sacrificate 30 minuti in coda: guardatela qualche minuto e spostatevi verso le sale vicine, spesso molto più piacevoli.",
+          "editorialIntro": "Il Louvre non si visita davvero in tre ore: si costruisce un percorso. L’obiettivo è alternare grandi icone e sale più tranquille, evitando di consumare tutte le energie davanti alla Gioconda. Il palazzo stesso — scaloni, corti e prospettive — è parte dell’esperienza.",
+          "audioGuide": {
+            "title": "Louvre · introduzione",
+            "text": "Il Louvre non è soltanto uno dei musei più celebri del mondo: è anche un edificio che racconta quasi otto secoli di storia francese. Prima di diventare museo, qui sorgeva una fortezza medievale costruita alla fine del dodicesimo secolo per proteggere Parigi. Nel tempo la fortezza fu trasformata in residenza reale e ampliata dai sovrani francesi. Quando Luigi quattordicesimo trasferì la corte a Versailles, il Louvre perse progressivamente la sua funzione di residenza reale. Durante la Rivoluzione francese nacque l'idea di trasformarlo in museo aperto al pubblico, inaugurato nel 1793. Oggi le collezioni coprono un arco enorme di civiltà e periodi storici, dall'Egitto antico alla Grecia e Roma, dall'arte islamica alla pittura europea. La piramide di vetro nel cortile Napoléon, progettata da Ieoh Ming Pei e inaugurata nel 1989, è diventata uno dei simboli contemporanei del museo. In una visita di tre ore la cosa più importante è non provare a vedere tutto. Conviene seguire un percorso essenziale, soffermandosi su pochi capolavori e lasciando tempo per orientarsi tra le ali del museo. Il percorso dell'app parte dalle grandi sculture dell'antichità, passa per la Nike di Samotracia e conduce verso la pittura italiana e francese, fino alla Gioconda. Usa questa introduzione come orientamento generale; per le singole opere puoi poi aprire il Percorso 3H e ascoltare le mini-guide dedicate."
+          },
+          "photo": {
+            "caption": "Louvre",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mus%C3%A9e_du_Louvre_et_Pyramide_du_Louvre_%28Paris%29.jpg/1280px-Mus%C3%A9e_du_Louvre_et_Pyramide_du_Louvre_%28Paris%29.jpg"
+          },
+          "booking": {
+            "kind": "Ingresso",
+            "url": "https://ticket.louvre.fr/en"
+          },
+          "louvreTrail": {
+            "title": "LOUVRE ESSENZIALE · 3H",
+            "subtitle": "Percorso compatto · circa 2h20–2h35 di opere + margine",
+            "note": "Il Louvre può modificare accessi e chiudere temporaneamente alcune sale. Verifica la mappa del museo il giorno della visita.",
+            "stops": [
+              {
+                "n": "01",
+                "time": "15 min",
+                "title": "Venere di Milo",
+                "where": "Ala Sully · livello 0 · sala 345/346",
+                "text": "Aphrodite, simbolo dell’ideale di bellezza greco. Fermati sul movimento del corpo e sul panneggio: l’assenza delle braccia è parte del mistero della statua.",
+                "audio": "La Venere di Milo fu scoperta sull’isola di Milo e arrivò al Louvre nel 1821. È una delle rare sculture greche originali divenute icone del museo. Osserva il contrasto fra il torso quasi immobile e la torsione delle anche, accentuata dal panneggio. Non sappiamo con certezza cosa tenessero le braccia perdute: tra le ipotesi, una mela oppure uno scudo."
+              },
+              {
+                "n": "02",
+                "time": "15 min",
+                "title": "Nike di Samotracia",
+                "where": "Ala Denon · livello 1 · scala Daru · sala 703",
+                "text": "Una delle entrate più teatrali del Louvre: la dea alata sembra avanzare contro il vento sulla prua di una nave.",
+                "audio": "La Nike di Samotracia, realizzata intorno al secondo secolo avanti Cristo, rappresenta la dea della Vittoria. La scultura era concepita per essere vista in una posizione monumentale. Guarda soprattutto il panneggio: aderisce al corpo come se fosse bagnato e contemporaneamente sembra mosso dal vento, trasformando il marmo in movimento."
+              },
+              {
+                "n": "03",
+                "time": "20 min",
+                "title": "Grande Galerie · pittura italiana",
+                "where": "Ala Denon · livello 1",
+                "text": "Attraversala senza cercare di vedere tutto. È il collegamento ideale verso Leonardo e la Salle des États.",
+                "audio": "La Grande Galerie è uno dei luoghi in cui si percepisce meglio la scala del Louvre. Non provare a osservare ogni quadro. Usala come una passeggiata attraverso la pittura italiana, fermandoti solo su ciò che cattura davvero l’attenzione: l’obiettivo è arrivare alla Salle des États senza consumare qui tutto il tempo disponibile."
+              },
+              {
+                "n": "04",
+                "time": "30 min",
+                "title": "Gioconda + Nozze di Cana",
+                "where": "Ala Denon · livello 1 · sala 711",
+                "text": "Le due opere sono una di fronte all’altra. Guarda la Gioconda, ma non dimenticare l’enorme tela di Veronese alle tue spalle.",
+                "audio": "La Gioconda è celebre per lo sfumato di Leonardo, il sorriso ambiguo e il paesaggio quasi irreale alle spalle della figura. Dopo averla vista, girati. Di fronte si trova Le Nozze di Cana di Veronese, la più grande tela del Louvre: una scena biblica trasformata in un sontuoso banchetto veneziano. Il contrasto di scala fra le due opere è parte dell’esperienza della sala."
+              },
+              {
+                "n": "05",
+                "time": "15 min",
+                "title": "Incoronazione di Napoleone",
+                "where": "Ala Denon · livello 1 · pittura francese",
+                "text": "David trasforma la cerimonia politica in una gigantesca macchina teatrale e celebrativa.",
+                "audio": "Jacques-Louis David costruisce l’Incoronazione di Napoleone come una scena di potere. La composizione dirige lo sguardo verso Napoleone, mentre personaggi, abiti e architettura trasformano la cerimonia in propaganda monumentale. Cerca i dettagli dei volti e confronta la scala delle figure con quella della sala."
+              },
+              {
+                "n": "06",
+                "time": "15 min",
+                "title": "La Libertà che guida il popolo",
+                "where": "Ala Denon · livello 1 · pittura francese · area sala 700",
+                "text": "Delacroix fonde cronaca, allegoria e movimento. È una delle immagini politiche più riconoscibili dell’Ottocento.",
+                "audio": "Delacroix dipinse La Libertà che guida il popolo dopo la rivoluzione del luglio 1830. La donna al centro è insieme una figura reale e un’allegoria della Libertà. Avanza sopra la barricata con il tricolore francese, mentre intorno a lei convivono persone di classi diverse. La composizione triangolare e il fumo danno alla scena un senso immediato di movimento."
+              },
+              {
+                "n": "07",
+                "time": "20 min",
+                "title": "Antichità egizie · Grande Sfinge di Tanis",
+                "where": "Ala Sully · livello 0 · Antichità egizie",
+                "text": "Una breve incursione nell’Egitto antico prima dell’uscita. Non trasformarla in una visita completa della sezione.",
+                "audio": "Chiudi il percorso con una breve deviazione nelle antichità egizie. La Grande Sfinge di Tanis combina corpo di leone e volto regale: forza animale e autorità del faraone. Questa sezione del Louvre potrebbe occupare ore, quindi usala come ultimo assaggio e non come un secondo museo dentro il museo."
+              }
+            ]
+          },
+          "transportBefore": {
+            "label": "VERSO MUSEO DEL LOUVRE",
+            "distance": "",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "7 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.86885%2C2.33273&daddr=48.86061%2C2.33764&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "7 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "variabile",
+                "price": "~€12–20 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.86061&dropoff%5Blongitude%5D=2.33764&dropoff%5Bnickname%5D=Louvre",
+                "shortName": "Uber",
+                "shortTime": "~5–15m",
+                "shortPrice": "~€12–20"
+              }
+            ],
+            "originStopId": "d3-colazione-cedric-grolet-opera",
+            "originTitle": "Colazione · Cédric Grolet",
+            "destinationStopId": "d3-museo-del-louvre",
+            "destinationTitle": "Louvre",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.louvre.fr/",
+          "mapDestination": "Musée du Louvre, Paris"
+        },
+        {
+          "id": "d3-pranzo-bistrot-louvre",
+          "kind": "food",
+          "kicker": "",
+          "title": "Pranzo · Louvre",
+          "timeLabel": "13:15–14:15 • Louvre / Palais Royal",
+          "start": "13:15",
+          "end": "14:15",
+          "durationMinutes": 60,
+          "place": "Louvre / Palais Royal",
+          "priority": "optional",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.85749,
+            "lon": 2.35965
+          },
+          "website": "",
+          "links": [],
+          "tag": "",
+          "summary": "Pranzo francese semplice, economico e vicino al Louvre, senza deviazioni prima di Montmartre.",
+          "highlights": [
+            "Bistrot o brasserie francese semplice.",
+            "Budget contenuto e servizio rapido.",
+            "Posizione vicina al Louvre per non perdere tempo negli spostamenti."
+          ],
+          "tip": "Preferite un locale con servizio rapido. Se il Louvre sfora, proteggete il tempo destinato a Montmartre.",
+          "editorialIntro": "Dopo il Louvre conviene restare nel quadrante Louvre–Palais Royal e scegliere un bistrot o una brasserie francese semplice. L’obiettivo è mangiare bene senza sottrarre tempo a Montmartre.",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "mealRecommendations": [
+            {
+              "name": "Bistrot Victoires",
+              "meta": "€ · bistrot",
+              "rating": "4,3",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d1095940-Reviews-Bistrot_Victoires-Paris_Ile_de_France.html"
+            },
+            {
+              "name": "Louise Café",
+              "meta": "€€ · francese",
+              "rating": "4,3",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d1076810-Reviews-Louise_Cafe-Paris_Ile_de_France.html"
+            },
+            {
+              "name": "Le Petit Vendôme",
+              "meta": "€€ · bistrot",
+              "rating": "4,1",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d1146488-Reviews-Le_Petit_Vendome-Paris_Ile_de_France.html"
+            }
+          ],
+          "transportBefore": {
+            "label": "COME ARRIVARE",
+            "originStopId": "d3-museo-del-louvre",
+            "originTitle": "Louvre",
+            "destinationStopId": "d3-pranzo-bistrot-louvre",
+            "destinationTitle": "Pranzo · Louvre",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "5–10 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.86061%2C2.33764&daddr=48.85749%2C2.35965&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "5–10 min",
+                "shortPrice": "gratis"
+              }
+            ],
+            "distance": "",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "mapDestination": "Palais Royal, Paris"
+        },
+        {
+          "id": "d3-montmartre-basilica",
+          "kind": "place",
+          "kicker": "",
+          "title": "Montmartre",
+          "timeLabel": "15:00–18:00 • Abbesses · Sacré-Cœur · Place du Tertre · Rue Lepic",
+          "start": "15:00",
+          "end": "18:00",
+          "durationMinutes": 180,
+          "place": "Sacré-Cœur, Tertre & Abbesses",
+          "priority": "must",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.8867,
+            "lon": 2.3431
+          },
+          "website": "https://www.sacre-coeur-montmartre.fr/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Sacre+Coeur+Paris"
+            }
+          ],
+          "tag": "Quartiere Bohémien • arrivo con luce · tramonto ~17:10",
+          "summary": "Pomeriggio ampio a Montmartre: Abbesses, Mur des Je t’aime, Sacré-Cœur, Place du Tertre, stradine della Butte e Rue Lepic.",
+          "highlights": [
+            "Basilica del Sacré-Cœur: Santuario bianco in stile romano-bisantino dominatore della vista parigina. All'interno ospita il grande mosaico dell'abside.",
+            "Place du Tertre: La storica piazzetta animata da pittori, ritrattisti e caricaturisti.",
+            "Le Mur des Je t'aime: Il muro dell'amore nel giardino di Square Jehan Rictus con la frase \"Ti Amo\" scritta in 250 lingue."
+          ],
+          "tip": "Per ridurre la fatica, usate la funicolare in salita. Poi percorrete soprattutto tratti in discesa; se siete stanchi, evitate le scalinate e prendete un Uber verso Pigalle. Percorso flessibile dopo il Louvre: ridurre la passeggiata in caso di stanchezza.",
+          "editorialIntro": "Montmartre va vissuta come una sequenza di atmosfere: Sacré-Cœur, Place du Tertre, piccole strade e discesa verso Abbesses. Anticiparla permette di arrivare con luce e godersi il tramonto senza affrontare tutta la collina al buio.",
+          "audioGuide": {
+            "title": "Montmartre e Sacré-Cœur",
+            "text": "Montmartre oggi sembra un quartiere perfettamente integrato in Parigi, ma per secoli fu un villaggio separato dalla città. La collina si trovava fuori dai confini urbani e ospitava vigneti, mulini e cave di gesso.\n\nMontmartre venne incorporata ufficialmente in Parigi soltanto nel 1860. Alla fine dell’Ottocento il quartiere iniziò ad attirare artisti, scrittori e persone legate al mondo dello spettacolo. Gli affitti erano relativamente bassi e la zona offriva una libertà maggiore rispetto ai quartieri borghesi del centro.\n\nRenoir, Toulouse-Lautrec, Modigliani e Picasso sono soltanto alcuni dei nomi associati a Montmartre.\n\nLa Basilica del Sacré-Cœur domina la collina. La costruzione iniziò nel 1875, in un periodo politicamente molto complesso per la Francia, e la basilica fu consacrata nel 1919.\n\nIl colore bianco caratteristico deriva dal travertino utilizzato per la costruzione. La pietra reagisce alla pioggia liberando calcite, contribuendo a mantenere la superficie relativamente chiara.\n\nPrima di entrare, fermati davanti alla basilica e guarda il panorama di Parigi. La vista è molto ampia e permette di capire quanto Montmartre sia effettivamente elevata rispetto al resto della città.\n\nSe entri, mantieni un comportamento rispettoso: il Sacré-Cœur è ancora un luogo di culto attivo.\n\nPoi dirigiti verso Place du Tertre. Oggi è molto turistica, ma la presenza dei pittori richiama la lunga tradizione artistica della collina.\n\nIl consiglio è di non restare troppo a lungo nella piazza. Basta allontanarsi di una o due strade per trovare un’atmosfera molto più tranquilla.\n\nGuarda le case più basse, le scale, i piccoli incroci. Questa è la parte che ricorda maggiormente l’antico villaggio.\n\nNel vostro itinerario Montmartre è stata anticipata proprio per sfruttare la luce del pomeriggio e arrivare al tramonto con calma.\n\nPer ridurre la fatica, usa la funicolare per la salita. Non c’è alcun vantaggio nel consumare energie sulle grandi scalinate prima ancora di iniziare la visita.\n\nDopo Sacré-Cœur e Place du Tertre, percorri soprattutto la discesa verso Abbesses. È molto più piacevole e permette di vedere il quartiere senza continui sforzi.\n\nSe qualcuno è stanco, evita le scale più ripide e usa strade alternative o un Uber verso Pigalle.\n\nMontmartre è uno dei luoghi in cui conviene rallentare. Il suo fascino non dipende da un singolo monumento, ma dal passaggio graduale tra panorama, basilica, strade, atelier e quartiere notturno.\n\nQuando inizierai a scendere verso Pigalle, noterai che l’atmosfera cambia rapidamente. È proprio questo contrasto, dal Sacré-Cœur al Moulin Rouge, a rendere il percorso particolarmente interessante."
+          },
+          "photo": {
+            "caption": "Montmartre",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Sacr%C3%A9_Coeur_Paris.jpg/1280px-Sacr%C3%A9_Coeur_Paris.jpg"
+          },
+          "booking": null,
+          "resilience": null,
+          "transportBefore": {
+            "label": "VERSO MONTMARTRE",
+            "distance": "",
+            "options": [
+              {
+                "icon": "🚇",
+                "name": "Metro",
+                "time": "30–35 min",
+                "price": "€2,55/p",
+                "href": "https://maps.apple.com/?saddr=48.85749%2C2.35965&daddr=48.8867%2C2.3431&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "30–35 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "20–30 min",
+                "price": "~€25–40 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.8867&dropoff%5Blongitude%5D=2.3431&dropoff%5Bnickname%5D=Montmartre",
+                "shortName": "Uber",
+                "shortTime": "20–30 min",
+                "shortPrice": "~€25–40"
+              }
+            ],
+            "originStopId": "d3-pranzo-bistrot-louvre",
+            "originTitle": "Pranzo · Louvre",
+            "destinationStopId": "d3-montmartre-basilica",
+            "destinationTitle": "Montmartre",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.sacre-coeur-montmartre.fr/",
+          "mapDestination": "Basilique du Sacré-Cœur de Montmartre, Paris"
+        },
+        {
+          "id": "d3-moulin-rouge",
+          "kind": "place",
+          "kicker": "",
+          "title": "Moulin Rouge",
+          "timeLabel": "19:00 - 19:30 • Boulevard de Clichy · solo esterno",
+          "start": "19:00",
+          "end": "19:30",
+          "durationMinutes": 30,
+          "place": "Boulevard de Clichy",
+          "priority": "optional",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.88413,
+            "lon": 2.33238
+          },
+          "website": "https://www.moulinrouge.fr/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Moulin+Rouge+Paris"
+            }
+          ],
+          "tag": "Solo esterno · foto al celebre mulino",
+          "summary": "Passaggio fotografico breve: è un bonus e non deve sottrarre tempo alla pausa prima di cena.",
+          "highlights": [
+            "Facciata e mulino illuminato.",
+            "Boulevard de Clichy e atmosfera di Pigalle.",
+            "Foto rapida prima di proseguire verso SoPi."
+          ],
+          "tip": "Per una foto più leggibile, attraversate sul lato opposto del boulevard usando gli attraversamenti pedonali: da vicino il mulino è difficile da inquadrare per intero.",
+          "editorialIntro": "È una sosta breve ma iconica: il Moulin Rouge rappresenta la Parigi della Belle Époque, dei cabaret e di Pigalle. Non serve entrare per apprezzare l’effetto scenografico della facciata e del celebre mulino rosso.",
+          "audioGuide": {
+            "title": "Moulin Rouge",
+            "text": "Il Moulin Rouge aprì nel 1889, lo stesso anno in cui venne inaugurata la Tour Eiffel. Il quartiere di Pigalle era allora una delle zone più vivaci e trasgressive della vita notturna parigina.\n\nIl cabaret nacque in un contesto di grande trasformazione sociale. La Belle Époque era un periodo di ottimismo, innovazione, spettacolo e crescente cultura del tempo libero.\n\nIl Moulin Rouge divenne rapidamente famoso per il cancan, una danza energica e provocatoria caratterizzata da gonne sollevate, calci alti e movimenti spettacolari.\n\nArtisti come Henri de Toulouse-Lautrec frequentavano il locale e contribuirono enormemente a costruirne l’immagine. I suoi manifesti pubblicitari sono oggi considerati capolavori della grafica moderna.\n\nGuarda la facciata. Il mulino rosso è volutamente teatrale e non deriva da una funzione reale dell’edificio. Richiama invece i mulini che un tempo caratterizzavano la collina di Montmartre.\n\nAlla fine dell’Ottocento Montmartre conservava ancora elementi del suo passato semi-rurale, quindi il mulino era un riferimento immediatamente riconoscibile.\n\nIl Moulin Rouge attraversò incendi, trasformazioni e cambiamenti di gusto, ma continuò a reinventarsi come luogo di spettacolo.\n\nOggi il cabaret è soprattutto una grande istituzione turistica e teatrale, molto diversa dall’ambiente bohemien e trasgressivo delle origini.\n\nNel vostro itinerario è prevista soltanto una sosta esterna, ed è sufficiente per capire il luogo.\n\nPer vedere bene la facciata, attraversa Boulevard de Clichy utilizzando gli attraversamenti pedonali e posizionati sul lato opposto. Da vicino il mulino è difficile da inquadrare per intero.\n\nGuarda anche il contesto. Pigalle è molto diverso dalla Parigi monumentale del Louvre o di Versailles. Qui insegne luminose, locali e traffico raccontano un’altra storia della città.\n\nIl passaggio dal Sacré-Cœur al Moulin Rouge è particolarmente interessante proprio per questo. In meno di mezz’ora si passa da una basilica costruita come grande simbolo religioso a uno dei simboli mondiali dello spettacolo notturno.\n\nUna curiosità: il cancan nacque prima del Moulin Rouge, ma il locale contribuì enormemente a renderlo famoso in tutto il mondo.\n\nToulouse-Lautrec trasformò ballerine e personaggi della notte parigina in icone artistiche, cancellando progressivamente il confine tra pubblicità e arte.\n\nQuindi, mentre fai la foto davanti al mulino, ricordati che non stai guardando soltanto un cabaret. Stai guardando uno dei luoghi che hanno contribuito a creare l’immagine internazionale della Parigi della Belle Époque."
+          },
+          "photo": {
+            "caption": "Moulin Rouge",
+            "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Moulin%20Rouge%20at%20night.jpg?width=1280"
+          },
+          "booking": null,
+          "resilience": null,
+          "transportBefore": {
+            "label": "VERSO MOULIN ROUGE",
+            "distance": "",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "15–20 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.8867%2C2.3431&daddr=48.88413%2C2.33238&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "15–20 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "variabile",
+                "price": "~€12–20 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.88413&dropoff%5Blongitude%5D=2.33238&dropoff%5Bnickname%5D=Moulin+Rouge",
+                "shortName": "Uber",
+                "shortTime": "~5–15m",
+                "shortPrice": "~€12–20"
+              }
+            ],
+            "originStopId": "d3-montmartre-basilica",
+            "originTitle": "Montmartre",
+            "destinationStopId": "d3-moulin-rouge",
+            "destinationTitle": "Moulin Rouge",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.moulinrouge.fr/",
+          "mapDestination": "Moulin Rouge, 82 Boulevard de Clichy, 75018 Paris"
+        },
+        {
+          "id": "d3-cena-bouillon-pigalle",
+          "kind": "food",
+          "kicker": "",
+          "title": "Cena · Bouillon Pigalle",
+          "timeLabel": "20:00 - 21:30 • Pigalle",
+          "start": "20:00",
+          "end": "21:30",
+          "durationMinutes": 90,
+          "place": "Bouillon Pigalle · 22 Boulevard de Clichy",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.86086,
+            "lon": 2.35418
+          },
+          "website": "https://bouillonlesite.com/bouillon-pigalle",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Pain+Vin+Fromages+3+Rue+Geoffroy+l%27Angevin+Paris"
+            }
+          ],
+          "tag": "",
+          "summary": "Bouillon francese informale e conveniente, perfetto dopo Montmartre e Moulin Rouge.",
+          "highlights": [
+            "Fondue savoiarda.",
+            "Raclette e selezione di formaggi.",
+            "Vini francesi da abbinare senza complicare troppo la serata."
+          ],
+          "tip": "Meglio arrivare senza aggiungere altre soste: la zona è già parte naturale della discesa da Montmartre.",
+          "editorialIntro": "Il bouillon è una formula molto parigina: sala vivace, cucina francese tradizionale e prezzi più accessibili rispetto a molti bistrot centrali. Dopo Montmartre e Moulin Rouge è una conclusione logisticamente semplice e coerente con la giornata.",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "transportBefore": {
+            "label": "VERSO CENA",
+            "distance": "",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "4–6 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.88413%2C2.33238&daddr=48.86086%2C2.35418&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "4–6 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "variabile",
+                "price": "~€12–20 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.86086&dropoff%5Blongitude%5D=2.35418&dropoff%5Bnickname%5D=Cena+%C2%B7+Bouillon+Pigalle",
+                "shortName": "Uber",
+                "shortTime": "~5–15m",
+                "shortPrice": "~€12–20"
+              }
+            ],
+            "originStopId": "d3-moulin-rouge",
+            "originTitle": "Moulin Rouge",
+            "destinationStopId": "d3-cena-bouillon-pigalle",
+            "destinationTitle": "Cena · Bouillon Pigalle",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://bouillonlesite.com/bouillon-pigalle",
+          "mapDestination": "Bouillon Pigalle, 22 Boulevard de Clichy, 75018 Paris"
+        },
+        {
+          "id": "2026-11-13-rientro-hotel",
+          "kind": "hotel",
+          "title": "Rientro in hotel",
+          "place": "Hotel Apollinaire · 39 Rue Delambre",
+          "start": "21:30",
+          "end": "22:00",
+          "durationMinutes": 30,
+          "timeLabel": "21:30 - 22:00 • Hotel Apollinaire",
+          "coordinates": {
+            "lat": 48.8428,
+            "lon": 2.3271
+          },
+          "priority": "fixed",
+          "resilience": "FIXED",
+          "summary": "",
+          "transportBefore": {
+            "label": "RITORNO IN HOTEL",
+            "distance": "",
+            "originStopId": "d3-cena-bouillon-pigalle",
+            "originTitle": "Cena · Bouillon Pigalle",
+            "destinationStopId": "2026-11-13-rientro-hotel",
+            "destinationTitle": "Rientro in hotel",
+            "options": [
+              {
+                "icon": "🚇",
+                "name": "Metro",
+                "time": "25–35 min",
+                "price": "€2,55/p",
+                "href": "https://maps.apple.com/?saddr=48.86086%2C2.35418&daddr=48.8428%2C2.3271&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "25–35 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "15–25 min",
+                "price": "~€15–25 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.8428&dropoff%5Blongitude%5D=2.3271&dropoff%5Bnickname%5D=Rientro+in+hotel",
+                "shortName": "Uber",
+                "shortTime": "15–25 min",
+                "shortPrice": "~€15–25"
+              }
+            ],
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "mapDestination": "Hotel Apollinaire, 39 Rue Delambre, 75014 Paris"
+        }
+      ],
+      "pace": "INTENSE",
+      "paceNote": "Louvre al mattino e molto più tempo a Montmartre; nessun aperitivo intermedio."
+    },
+    {
+      "id": "day4",
+      "date": "2026-11-14",
+      "dateLabel": "Sabato 14 Novembre",
+      "subtitle": "Notre-Dame, Luxembourg, Galeries & Arc",
+      "accent": "#0A84FF",
+      "stops": [
+        {
+          "id": "d4-colazione-bakery-cafe-vicino-a-saint-michelcite",
+          "kind": "food",
+          "kicker": "",
+          "title": "Colazione · Aux Merveilleux",
+          "timeLabel": "08:30 - 09:00 • Odéon · 1 rue de l’Ancienne Comédie",
+          "start": "08:30",
+          "end": "09:00",
+          "durationMinutes": 30,
+          "place": "Aux Merveilleux de Fred · Odéon",
+          "priority": "optional",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.8531,
+            "lon": 2.3385
+          },
+          "website": "https://www.auxmerveilleux.fr/adresses/",
+          "links": [],
+          "tag": "",
+          "summary": "Colazione da Aux Merveilleux de Fred prima di Sainte-Chapelle. La sede Odéon è comoda per proseguire a piedi verso l’Île de la Cité.",
+          "highlights": [
+            "Cramique.",
+            "Merveilleux.",
+            "Gaufre fourrée."
+          ],
+          "tip": "Non trasformarla in una pausa lunga: Sainte-Chapelle resta la prima visita della giornata.",
+          "editorialIntro": "Una colazione volutamente semplice: cramique, croissant o waffle, poi si prosegue verso Sainte-Chapelle senza attraversare Parigi.",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "mealRecommendations": [],
+          "officialWebsite": "https://www.auxmerveilleux.fr/adresses/",
+          "mapDestination": "Aux Merveilleux de Fred, 1 Rue de l’Ancienne Comédie, 75006 Paris",
+          "transportBefore": {
+            "origin": "Hotel Apollinaire, 39 Rue Delambre, 75014 Paris",
+            "destination": "Aux Merveilleux de Fred, 1 Rue de l’Ancienne Comédie, 75006 Paris",
+            "destinationStopId": "d4-colazione-bakery-cafe-vicino-a-saint-michelcite",
+            "options": [
+              {
+                "name": "Metro",
+                "time": "~20 min",
+                "price": "€2,55/p",
+                "icon": "🚇",
+                "href": "https://maps.apple.com/?saddr=39+Rue+Delambre%2C+Paris&daddr=48.8531%2C2.3385&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "20 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "name": "Uber",
+                "time": "~12–18 min",
+                "price": "~€15–25 /auto · stima",
+                "icon": "🚗",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.8531&dropoff%5Blongitude%5D=2.3385&dropoff%5Bnickname%5D=Colazione+%C2%B7+Aux+Merveilleux",
+                "shortName": "Uber",
+                "shortTime": "12–18 min",
+                "shortPrice": "~€15–25"
+              }
+            ],
+            "destinationTitle": "Colazione · Aux Merveilleux",
+            "distance": "",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          }
+        },
+        {
+          "id": "d4-sainte-chapelle",
+          "kind": "place",
+          "kicker": "",
+          "title": "Sainte-Chapelle",
+          "timeLabel": "10:00 - 10:30 • Île de la Cité",
+          "start": "10:00",
+          "end": "10:30",
+          "durationMinutes": 30,
+          "place": "Sainte-Chapelle",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.8554,
+            "lon": 2.34501
+          },
+          "website": "https://www.sainte-chapelle.fr/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Sainte-Chapelle+Paris"
+            }
+          ],
+          "tag": "Vetrate gotiche · €16 EEA / €22 standard",
+          "summary": "",
+          "highlights": [
+            "Vetrate del XIII secolo: 15 grandi finestre istoriate che avvolgono la cappella superiore.",
+            "Architettura gotica radiante: visita breve ma molto scenografica."
+          ],
+          "tip": "Non fermatevi troppo nella cappella inferiore: salite appena possibile. Se c’è sole, la luce è più spettacolare; se è nuvoloso, l’ambiente resta comunque suggestivo ma più uniforme.",
+          "editorialIntro": "La Sainte-Chapelle è una delle esperienze più concentrate e spettacolari del viaggio. La cappella superiore sembra quasi smaterializzata dalle vetrate: la struttura in pietra scompare e resta una grande parete di luce colorata.",
+          "audioGuide": {
+            "title": "Sainte-Chapelle",
+            "text": "La Sainte-Chapelle è piccola rispetto a Notre-Dame, ma dal punto di vista architettonico è una delle esperienze più sorprendenti di Parigi. Fu fatta costruire nel tredicesimo secolo da Luigi nono, il futuro San Luigi, per custodire alcune delle reliquie cristiane più prestigiose dell’epoca, tra cui quella ritenuta la Corona di Spine.\n\nLa costruzione fu completata in tempi relativamente rapidi e la cappella venne consacrata nel 1248. L’edificio era parte del palazzo reale medievale dell’Île de la Cité e aveva quindi una funzione strettamente legata alla monarchia.\n\nLa Sainte-Chapelle è organizzata su due livelli. La cappella inferiore era destinata ai servitori e al personale del palazzo. È più bassa, raccolta e relativamente scura. Non soffermarti troppo qui, perché la vera sorpresa è al piano superiore.\n\nQuando sali, fermati appena entri. Prima di fare fotografie, guarda l’insieme. Le pareti sembrano quasi scomparire. Questo effetto è possibile perché la struttura in pietra è ridotta al minimo e grandi superfici vengono occupate dalle vetrate.\n\nLe quindici grandi finestre della cappella superiore contengono oltre mille scene bibliche. La narrazione attraversa Antico e Nuovo Testamento e culmina nella storia delle reliquie custodite dalla monarchia francese.\n\nIl colore dominante cambia con la luce esterna. In una giornata luminosa le vetrate possono diventare quasi incandescenti. Con cielo coperto l’effetto è meno brillante ma spesso più uniforme e leggibile.\n\nGuarda anche verso il rosone occidentale. È più tardo rispetto alla maggior parte delle grandi vetrate e presenta uno stile differente.\n\nDal punto di vista architettonico, la Sainte-Chapelle è un capolavoro del gotico rayonnant, uno stile che cerca di ridurre la massa muraria e aumentare sempre di più il ruolo della luce. È quasi come se l’edificio volesse dissolversi.\n\nUna curiosità: durante la Rivoluzione francese la cappella subì danni e le reliquie furono disperse o trasferite. L’edificio venne successivamente restaurato nell’Ottocento.\n\nIl consiglio durante la visita è di non cercare di leggere ogni singola scena delle vetrate. Sarebbe impossibile in poco tempo. Guarda prima la composizione generale. Poi scegli una finestra e osserva qualche dettaglio.\n\nPrenditi qualche minuto fermo al centro della cappella superiore. Non c’è bisogno di muoversi continuamente: gran parte dell’esperienza può essere vissuta semplicemente guardando verso l’alto.\n\nQuando uscirai, probabilmente ricorderai soprattutto il colore. Ma la cosa veramente straordinaria è il modo in cui gli architetti medievali hanno usato la tecnica per trasformare la pietra in luce."
+          },
+          "photo": {
+            "caption": "Sainte-Chapelle",
+            "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Interior%20de%20la%20Sainte%20Chapelle.jpg?width=1280"
+          },
+          "booking": {
+            "kind": "Ingresso",
+            "url": "https://www.sainte-chapelle.fr/en/visit/practical-information"
+          },
+          "transportBefore": {
+            "label": "VERSO SAINTE-CHAPELLE",
+            "distance": "",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "10–12 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.8531%2C2.3385&daddr=48.8554%2C2.34501&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "10–12 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "5–10 min",
+                "price": "~€12–20 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.8554&dropoff%5Blongitude%5D=2.34501&dropoff%5Bnickname%5D=Sainte-Chapelle",
+                "shortName": "Uber",
+                "shortTime": "5–10 min",
+                "shortPrice": "~€12–20"
+              }
+            ],
+            "originStopId": "d4-colazione-bakery-cafe-vicino-a-saint-michelcite",
+            "originTitle": "Colazione · Aux Merveilleux",
+            "destinationStopId": "d4-sainte-chapelle",
+            "destinationTitle": "Sainte-Chapelle",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.sainte-chapelle.fr/",
+          "mapDestination": "Sainte-Chapelle, 10 Boulevard du Palais, 75001 Paris"
+        },
+        {
+          "id": "d4-notre-dame-de-paris",
+          "kind": "place",
+          "kicker": "",
+          "title": "Notre-Dame",
+          "timeLabel": "12:15 - 13:00 • Visita guidata",
+          "start": "12:15",
+          "end": "13:00",
+          "durationMinutes": 45,
+          "place": "Notre-Dame de Paris",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.85297,
+            "lon": 2.3499
+          },
+          "website": "https://www.notredamedeparis.fr/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Notre-Dame+de+Paris"
+            }
+          ],
+          "tag": "Visita guidata prenotata · €15 a persona",
+          "summary": "All’interno concentratevi su navata, transetto e rosone; la visita è più significativa se la abbinate alla vista esterna dell’abside e della facciata.",
+          "highlights": [
+            "Navata e rosone: il cuore della cattedrale restaurata e riaperta.",
+            "Portali e facciata: da osservare anche all’esterno prima o dopo la visita."
+          ],
+          "tip": "Visita guidata alle 12:15 (€15 a persona, €75 in cinque). Uscita e spostamento a piedi prima del pranzo delle 13:15.",
+          "editorialIntro": "Notre-Dame è tornata a essere uno dei luoghi simbolici della città. Dopo il restauro gli interni risultano più luminosi e leggibili, ma la visita acquista senso soprattutto combinando navata, facciata e abside esterna.",
+          "audioGuide": {
+            "title": "Notre-Dame de Paris",
+            "text": "Notre-Dame è uno dei monumenti più importanti della storia di Parigi e uno dei grandi simboli dell’architettura gotica europea. La costruzione iniziò nel 1163 e proseguì per quasi due secoli, attraversando diverse fasi e generazioni di architetti.\n\nPrima di entrare, guarda la facciata. Le due torri creano una composizione apparentemente semplice, ma sotto di esse si sviluppa un complesso sistema di portali, sculture e gallerie. Molte delle statue raccontano episodi biblici e servivano anche come strumento visivo per una popolazione in gran parte analfabeta.\n\nQuando entri, osserva soprattutto l’altezza della navata. Il gotico permette di costruire molto più in alto rispetto alle chiese romaniche precedenti. Questo è possibile grazie a un sistema di volte, pilastri, contrafforti e archi rampanti che trasferiscono il peso verso l’esterno.\n\nI grandi rosoni sono tra gli elementi più celebri della cattedrale. La luce colorata non ha soltanto una funzione decorativa: contribuisce a creare un’atmosfera spirituale e simbolica.\n\nNotre-Dame attraversò periodi difficili. Durante la Rivoluzione francese molte sculture furono danneggiate e l’edificio perse parte della sua funzione religiosa. Nell’Ottocento il romanzo Notre-Dame de Paris di Victor Hugo contribuì enormemente alla riscoperta della cattedrale e alla sensibilizzazione dell’opinione pubblica.\n\nSeguì un grande restauro diretto da Eugène Viollet-le-Duc, che introdusse anche elementi nuovi, tra cui la famosa guglia ottocentesca.\n\nIl 15 aprile 2019 un incendio devastante distrusse gran parte della copertura e la guglia crollò. Le immagini fecero il giro del mondo. Dopo anni di lavori, la cattedrale è stata riaperta nel dicembre 2024.\n\nAll’interno restaurato noterai una luminosità molto maggiore rispetto a prima dell’incendio. Le superfici in pietra sono state pulite e l’architettura risulta oggi più leggibile.\n\nDopo la visita, non fermarti soltanto sulla piazza davanti alla facciata. Cammina verso l’abside. È da qui che puoi osservare meglio gli archi rampanti. Questi elementi, spesso considerati semplicemente decorativi, sono in realtà fondamentali per sostenere le alte volte della cattedrale.\n\nGuarda come ogni arco collega la parte superiore della chiesa ai contrafforti esterni. È un sistema strutturale elegante e molto sofisticato.\n\nSe il gruppo è stanco, evita di fare inutilmente il giro completo dell’isola. Basta raggiungere l’abside, fermarsi qualche minuto e poi proseguire.\n\nNotre-Dame racconta quasi nove secoli di storia: monarchia, rivoluzione, restauri, letteratura, incendio e rinascita. È proprio questa stratificazione a renderla molto più di una semplice cattedrale."
+          },
+          "photo": {
+            "caption": "Notre-Dame",
+            "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Notre-Dame%20de%20Paris%2C%20facade.jpg?width=1280"
+          },
+          "booking": {
+            "kind": "Visita guidata prenotata",
+            "price": "€15 a persona"
+          },
+          "transportBefore": {
+            "label": "VERSO NOTRE-DAME",
+            "distance": "",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "6 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.8554%2C2.34501&daddr=48.85297%2C2.3499&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "6 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "variabile",
+                "price": "~€12–20 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.85297&dropoff%5Blongitude%5D=2.3499&dropoff%5Bnickname%5D=Notre-Dame",
+                "shortName": "Uber",
+                "shortTime": "~5–15m",
+                "shortPrice": "~€12–20"
+              }
+            ],
+            "originStopId": "d4-sainte-chapelle",
+            "originTitle": "Sainte-Chapelle",
+            "destinationStopId": "d4-notre-dame-de-paris",
+            "destinationTitle": "Notre-Dame",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.notredamedeparis.fr/",
+          "mapDestination": "Cathédrale Notre-Dame de Paris, Paris"
+        },
+        {
+          "id": "d4-pranzo-zona-notre-dame",
+          "kind": "food",
+          "kicker": "",
+          "title": "Pranzo · Notre-Dame",
+          "timeLabel": "13:20–14:10 • Pausa pranzo · Quartiere Latino",
+          "start": "13:20",
+          "end": "14:10",
+          "durationMinutes": 50,
+          "place": "Quartiere Latino · vicino Notre-Dame",
+          "priority": "optional",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.8518,
+            "lon": 2.3473
+          },
+          "website": "",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Cafe+de+Flore+Paris"
+            }
+          ],
+          "tag": "",
+          "summary": "Pranzo francese semplice e non costoso nei dintorni di Notre-Dame.",
+          "highlights": [
+            "Bistrot, bouillon o crêperie nei dintorni di Notre-Dame.",
+            "Budget €–€€.",
+            "Nessuna deviazione: dopo pranzo si prosegue verso Luxembourg."
+          ],
+          "tip": "Pranzo vicino alla cattedrale, senza spostarsi verso Saint-Germain: prevedere 15 minuti per uscire dalla visita guidata.",
+          "editorialIntro": "Dopo Notre-Dame conviene restare in zona e scegliere un locale semplice. Il pranzo deve essere una pausa vera, non una nuova destinazione.",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "mealRecommendations": [
+            {
+              "name": "Sur le Pouce",
+              "meta": "€ · francese",
+              "rating": "4,4",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d3943784-Reviews-Sur_le_Pouce-Paris_Ile_de_France.html"
+            },
+            {
+              "name": "Le Sarrasin et le Froment",
+              "meta": "€ · crêperie",
+              "rating": "4,2",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d1815848-Reviews-Le_Sarrasin_et_le_Froment_Creperie-Paris_Ile_de_France.html"
+            },
+            {
+              "name": "Bistro des Augustins",
+              "meta": "€ · bistrot",
+              "rating": "4,3",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d1488963-Reviews-Bistro_des_Augustins-Paris_Ile_de_France.html"
+            }
+          ],
+          "transportBefore": {
+            "label": "SPOSTAMENTO",
+            "distance": "",
+            "originStopId": "d4-notre-dame-de-paris",
+            "originTitle": "Notre-Dame",
+            "destinationStopId": "d4-pranzo-zona-notre-dame",
+            "destinationTitle": "Pranzo · Notre-Dame",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "5–10 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.85297%2C2.3499&daddr=48.8518%2C2.3473&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "5–10 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "5–15 min",
+                "price": "~€12–20 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.8518&dropoff%5Blongitude%5D=2.3473&dropoff%5Bnickname%5D=Pranzo+%C2%B7+Notre-Dame",
+                "shortName": "Uber",
+                "shortTime": "5–15 min",
+                "shortPrice": "~€12–20"
+              }
+            ],
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "mapDestination": "Quartiere Latino, Paris"
+        },
+        {
+          "id": "d4-pantheon-vista-esterna-jardin-du-luxembourg",
+          "kind": "place",
+          "kicker": "",
+          "title": "Jardin du Luxembourg",
+          "timeLabel": "14:35–15:35 • Passeggiata · Fontaine Médicis",
+          "start": "14:35",
+          "end": "15:35",
+          "durationMinutes": 60,
+          "place": "Jardin du Luxembourg / Panthéon esterno",
+          "priority": "optional",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.84622,
+            "lon": 2.34641
+          },
+          "website": "https://www.paris-pantheon.fr/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Pantheon+Paris"
+            }
+          ],
+          "tag": "Vista Esterna & Giardini Reali",
+          "summary": "Luxembourg come pausa verde; Panthéon solo esterno se cade naturalmente sul percorso.",
+          "highlights": [
+            "Panthéon (Solo da Fuori): Ammirate la maestosa facciata neoclassica ispirata al Pantheon di Roma, con il suo gigantesco colonnato corinzio e la grande cupola che sovrasta il Quartiere Latino.",
+            "Jardin du Luxembourg: Splendidi giardini creati nel 1612 per Maria de' Medici, curati alla francese e arricchiti dalla romantica Fontana de' Medici ."
+          ],
+          "tip": "Nel Luxembourg non cercate di vedere tutto: dirigetevi verso Fontaine Médicis e poi scegliete una sedia libera. Dieci minuti seduti qui valgono più di un giro completo del parco.",
+          "editorialIntro": "Questo tratto è pensato come passeggiata di decompressione: Rue Soufflot, facciata del Panthéon e Jardin du Luxembourg creano un percorso elegante e molto parigino senza necessità di aggiungere un’altra visita interna.",
+          "audioGuide": {
+            "title": "Panthéon e Jardin du Luxembourg",
+            "text": "Il Panthéon domina il Quartier Latin dalla cima della Montagne Sainte-Geneviève. La sua storia riflette bene i profondi cambiamenti politici attraversati dalla Francia tra monarchia, rivoluzione e repubblica.\n\nL’edificio nacque come chiesa dedicata a Sainte-Geneviève, patrona di Parigi. Luigi quindicesimo commissionò il progetto all’architetto Jacques-Germain Soufflot nel diciottesimo secolo.\n\nSoufflot voleva combinare la monumentalità dell’architettura classica con soluzioni strutturali più leggere. La grande facciata con colonne corinzie richiama direttamente l’architettura dell’antichità.\n\nDurante la Rivoluzione francese l’edificio venne trasformato in mausoleo civile destinato a celebrare le grandi personalità della nazione.\n\nNel corso dell’Ottocento cambiò più volte funzione, alternando momenti religiosi e civili. Alla fine prevalse definitivamente il ruolo di monumento repubblicano.\n\nAll’interno sono sepolti o commemorati personaggi come Voltaire, Rousseau, Victor Hugo, Émile Zola, Marie Curie e molti altri.\n\nNel 1851 il fisico Léon Foucault utilizzò la grande cupola per dimostrare la rotazione della Terra attraverso il celebre pendolo.\n\nNel vostro itinerario è prevista soltanto la visita esterna. È sufficiente per apprezzare la monumentalità dell’edificio e la sua posizione urbana.\n\nPrima di arrivare troppo vicino, fermati lungo Rue Soufflot. Da qui la prospettiva verso il Panthéon è particolarmente elegante e permette di percepire meglio le proporzioni della facciata e della cupola.\n\nPoi prosegui verso il Jardin du Luxembourg.\n\nIl giardino nasce all’inizio del Seicento per volontà di Maria de’ Medici, vedova di Enrico quarto. La regina desiderava una residenza e un giardino che ricordassero in parte l’ambiente della sua Firenze natale.\n\nIl Palais du Luxembourg oggi ospita il Senato francese.\n\nNel parco troverai grandi viali, il bacino centrale, statue e le tipiche sedie verdi che i parigini spostano liberamente per sedersi dove preferiscono.\n\nNon cercare di percorrere tutto il giardino. Il vostro programma deve restare piacevole.\n\nDirigiti verso la Fontaine Médicis. È uno degli angoli più raccolti e romantici del parco, con acqua, alberi e una prospettiva molto più intima rispetto al bacino centrale.\n\nQuesto è anche il momento giusto per fermarsi. Prendete una sedia e restate seduti dieci o quindici minuti.\n\nQuesta tappa funziona proprio perché unisce monumento e pausa. Dopo tante visite interne, il Panthéon e il Luxembourg permettono di continuare a conoscere Parigi senza aumentare troppo la fatica."
+          },
+          "photo": {
+            "caption": "Jardin du Luxembourg",
+            "src": "https://tour.qiqtek.com/wp-content/uploads/2026/01/jardins-de-luxembourg-paris-luxembourg-garden.jpg"
+          },
+          "booking": null,
+          "resilience": "FLEX",
+          "transportBefore": {
+            "label": "SPOSTAMENTO",
+            "distance": "",
+            "originStopId": "d4-pranzo-zona-notre-dame",
+            "originTitle": "Pranzo · Notre-Dame",
+            "destinationStopId": "d4-pantheon-vista-esterna-jardin-du-luxembourg",
+            "destinationTitle": "Jardin du Luxembourg",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "15–20 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.8518%2C2.3473&daddr=48.84622%2C2.34641&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "15–20 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "8–15 min",
+                "price": "~€12–20 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.84622&dropoff%5Blongitude%5D=2.34641&dropoff%5Bnickname%5D=Jardin+du+Luxembourg",
+                "shortName": "Uber",
+                "shortTime": "8–15 min",
+                "shortPrice": "~€12–20"
+              }
+            ],
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.paris-pantheon.fr/",
+          "mapDestination": "Jardin du Luxembourg, Paris"
+        },
+        {
+          "id": "d4-pausa-libera-riposo",
+          "kind": "break",
+          "kicker": "",
+          "title": "Passeggiata · Quartiere Latino e Marais",
+          "timeLabel": "16:00–18:45 • Hotel · pausa e riposo",
+          "start": "16:00",
+          "end": "18:45",
+          "durationMinutes": 165,
+          "place": "Quartiere Latino → Île Saint-Louis → Marais",
+          "priority": "optional",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.855,
+            "lon": 2.354
+          },
+          "website": null,
+          "links": [],
+          "tag": "",
+          "summary": "Passeggiata libera prima della cena, senza attraversare Parigi inutilmente.",
+          "highlights": [],
+          "tip": "",
+          "editorialIntro": "",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "mapDestination": "Le Marais, Paris",
+          "transportBefore": {
+            "label": "SPOSTAMENTO",
+            "distance": "",
+            "originStopId": "d4-pantheon-vista-esterna-jardin-du-luxembourg",
+            "originTitle": "Jardin du Luxembourg",
+            "destinationStopId": "d4-pausa-libera-riposo",
+            "destinationTitle": "Passeggiata · Quartiere Latino e Marais",
+            "options": [
+              {
+                "icon": "🚇",
+                "name": "Metro",
+                "time": "25–35 min",
+                "price": "€2,55/p",
+                "href": "https://maps.apple.com/?saddr=48.84622%2C2.34641&daddr=48.855%2C2.354&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "25–35 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "20–40 min",
+                "price": "~€25–40 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.855&dropoff%5Blongitude%5D=2.354&dropoff%5Bnickname%5D=Passeggiata+%C2%B7+Quartiere+Latino+e+Marais",
+                "shortName": "Uber",
+                "shortTime": "20–40 min",
+                "shortPrice": "~€25–40"
+              }
+            ],
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          }
+        },
+        {
+          "id": "d4-cena-le-procope-dal-1686",
+          "kind": "food",
+          "kicker": "",
+          "title": "Cena · Pain Vin Fromages",
+          "timeLabel": "19:30–21:00 • Cena a base di formaggi francesi · da prenotare",
+          "start": "19:30",
+          "end": "21:00",
+          "durationMinutes": 90,
+          "place": "Pain Vin Fromages · 3 Rue Geoffroy l’Angevin, Marais",
+          "priority": "optional",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.86065,
+            "lon": 2.35416
+          },
+          "website": "https://painvinfromages.com/",
+          "links": [
+            {
+              "label": "Prenota un tavolo",
+              "href": "https://painvinfromages.com/reservation/"
+            },
+            {
+              "label": "Menu",
+              "href": "https://painvinfromages.com/notre-menu/"
+            }
+          ],
+          "tag": "Cena proposta · DA PRENOTARE",
+          "summary": "Cena nel Marais con fonduta, raclette e formaggi francesi. Prenotazione da richiedere: non è confermata.",
+          "highlights": [
+            "Fonduta, raclette e selezione di formaggi francesi.",
+            "Nel quartiere del Marais, vicino al Centre Pompidou."
+          ],
+          "tip": "Cena proposta, NON prenotata. Richiedere un tavolo tramite il sito ufficiale e attendere conferma: https://painvinfromages.com/reservation/",
+          "editorialIntro": "Pain Vin Fromages è un ristorante specializzato in formaggi francesi nel Marais.",
+          "audioGuide": null,
+          "photo": null,
+          "booking": {
+            "kind": "Richiedi prenotazione",
+            "url": "https://painvinfromages.com/reservation/"
+          },
+          "transportBefore": {
+            "label": "VERSO PAIN VIN FROMAGES",
+            "distance": "",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi (dal Marais)",
+                "time": "~10–25 min secondo il punto di partenza",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.855%2C2.354&daddr=48.86065%2C2.35416&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "10–25 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "variabile",
+                "price": "~€12–20 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.86065&dropoff%5Blongitude%5D=2.35416&dropoff%5Bnickname%5D=Cena+%C2%B7+Pain+Vin+Fromages",
+                "shortName": "Uber",
+                "shortTime": "~5–15m",
+                "shortPrice": "~€12–20"
+              }
+            ],
+            "originStopId": "d4-pausa-libera-riposo",
+            "originTitle": "Passeggiata · Quartiere Latino e Marais",
+            "destinationStopId": "d4-cena-le-procope-dal-1686",
+            "destinationTitle": "Cena · Pain Vin Fromages",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://painvinfromages.com/",
+          "mapDestination": "Pain Vin Fromages, 3 Rue Geoffroy l’Angevin, 75004 Paris"
+        },
+        {
+          "id": "2026-11-14-rientro-hotel",
+          "kind": "hotel",
+          "title": "Rientro in hotel",
+          "place": "Hotel Apollinaire · 39 Rue Delambre",
+          "start": "21:00",
+          "end": "21:35",
+          "durationMinutes": 35,
+          "timeLabel": "21:00–21:35 • Hotel Apollinaire",
+          "coordinates": {
+            "lat": 48.8428,
+            "lon": 2.3271
+          },
+          "priority": "fixed",
+          "resilience": "FIXED",
+          "summary": "",
+          "transportBefore": {
+            "label": "RITORNO IN HOTEL",
+            "distance": "",
+            "originStopId": "d4-cena-le-procope-dal-1686",
+            "originTitle": "Cena · Pain Vin Fromages",
+            "destinationStopId": "2026-11-14-rientro-hotel",
+            "destinationTitle": "Rientro in hotel",
+            "options": [
+              {
+                "icon": "🚇",
+                "name": "Metro / RER (percorso da verificare)",
+                "shortName": "Metro",
+                "time": "~25–40 min incl. accesso e attesa",
+                "shortTime": "25–40 min",
+                "price": "€2,55/p",
+                "shortPrice": "€2,55/p",
+                "href": "https://maps.apple.com/?saddr=48.86065%2C2.35416&daddr=48.8428%2C2.3271&dirflg=r"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "shortName": "Uber",
+                "time": "~20–35 min, traffico variabile",
+                "shortTime": "20–35 min",
+                "price": "~€15–30 /auto · stima",
+                "shortPrice": "~€15–30",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.8428&dropoff%5Blongitude%5D=2.3271&dropoff%5Bnickname%5D=Rientro+in+hotel"
+              }
+            ],
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "mapDestination": "Hotel Apollinaire, 39 Rue Delambre, 75014 Paris"
+        }
+      ],
+      "pace": "BALANCED",
+      "paceNote": "Saint-Germain e Quartier Latin eliminati come tappe; Panthéon e Arc restano passaggi leggeri."
+    },
+    {
+      "id": "day5",
+      "date": "2026-11-15",
+      "dateLabel": "Domenica 15 Novembre",
+      "subtitle": "Musée d’Orsay, Palais Garnier & Parigi lenta",
+      "accent": "#BF5AF2",
+      "stops": [
+        {
+          "id": "d5-colazione-boulangerie-vicino-allhotel-solferino",
+          "kind": "food",
+          "kicker": "",
+          "title": "Colazione · Solférino",
+          "timeLabel": "08:30 - 09:00 • Colazione pratica prima del museo",
+          "start": "08:30",
+          "end": "09:00",
+          "durationMinutes": 30,
+          "place": "Colazione pratica prima del museo",
+          "priority": "optional",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.8582,
+            "lon": 2.323
+          },
+          "website": null,
+          "links": [],
+          "tag": "",
+          "summary": "Colazione semplice in boulangerie: scelta più coerente con l’apertura del Musée d’Orsay alle 09:30 e senza deviazioni inutili.",
+          "highlights": [],
+          "tip": "",
+          "editorialIntro": "",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "mealRecommendations": [
+            {
+              "name": "Eric Kayser · Rue du Bac",
+              "meta": "€ · boulangerie",
+              "rating": "4,1",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d4564593-Reviews-Eric_Kayser_Bac_Musee_d_Orsay-Paris_Ile_de_France.html"
+            },
+            {
+              "name": "La Maison d’Isabelle",
+              "meta": "€ · boulangerie",
+              "rating": "4,1",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d14788722-Reviews-La_Maison_d_Isabelle-Paris_Ile_de_France.html"
+            },
+            {
+              "name": "Le Saint Germain",
+              "meta": "€€ · café",
+              "rating": "3,9",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d2428237-Reviews-Le_Saint_Germain-Paris_Ile_de_France.html"
+            }
+          ],
+          "mapDestination": "Solférino, Paris",
+          "transportBefore": {
+            "origin": "Hotel Apollinaire, 39 Rue Delambre, 75014 Paris",
+            "destination": "Solférino, Paris",
+            "destinationStopId": "d5-colazione-boulangerie-vicino-allhotel-solferino",
+            "options": [
+              {
+                "name": "Metro",
+                "time": "~20–25 min",
+                "price": "€2,55/p",
+                "icon": "🚇",
+                "href": "https://maps.apple.com/?saddr=39+Rue+Delambre%2C+Paris&daddr=48.8582%2C2.323&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "20–25 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "name": "Uber",
+                "time": "~12–18 min",
+                "price": "~€15–25 /auto · stima",
+                "icon": "🚗",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.8582&dropoff%5Blongitude%5D=2.323&dropoff%5Bnickname%5D=Colazione+%C2%B7+Solf%C3%A9rino",
+                "shortName": "Uber",
+                "shortTime": "12–18 min",
+                "shortPrice": "~€15–25"
+              }
+            ],
+            "destinationTitle": "Colazione · Solférino",
+            "distance": "",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          }
+        },
+        {
+          "id": "d5-museo-d-orsay",
+          "kind": "place",
+          "kicker": "",
+          "title": "Musée d’Orsay",
+          "timeLabel": "10:00–12:00 • Percorso essenziale",
+          "start": "10:00",
+          "end": "12:00",
+          "durationMinutes": 120,
+          "place": "Musée d’Orsay",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.85996,
+            "lon": 2.32656
+          },
+          "website": "https://www.musee-orsay.fr/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Musee+d'Orsay+Paris"
+            }
+          ],
+          "tag": "€16 online / €14 in sede",
+          "summary": "Straordinario museo ospitato nella suggestiva ex stazione ferroviaria Beaux-Arts costruita per l'Esposizione Universale del 1900. Il museo è più gestibile del Louvre ma merita comunque una strategia: impressionisti, Van Gogh e l’orologio sono il percorso essenziale.",
+          "highlights": [
+            "I Capolavori Impressionisti: Opere iconiche di Monet ( I papaveri ), Renoir ( Bal au moulin de la Galette ) e Degas.",
+            "La Sala Van Gogh: Dipinti fondamentali tra cui la celebre La notte stellata sul Rodano e l' Autoritratto .",
+            "L'Orologio Monumentale: Gigantesco orologio in vetro al 5° piano con scorcio panoramico sulla Senna e sulla Basilica del Sacro Cuore."
+          ],
+          "tip": "Salite subito al quinto piano e poi scendete. Così vedete i capolavori quando siete ancora freschi e percorrete il museo prevalentemente in discesa.",
+          "editorialIntro": "Il Musée d’Orsay è più leggibile del Louvre e per questo può diventare uno dei musei più piacevoli del viaggio. La vecchia stazione ferroviaria è già un’opera: navata, luce naturale e grande orologio costruiscono l’esperienza insieme ai dipinti.",
+          "audioGuide": {
+            "title": "Musée d'Orsay",
+            "text": "Il Musée d’Orsay è uno dei musei più piacevoli di Parigi perché edificio e collezione raccontano insieme una stessa epoca. Prima di essere un museo, questo luogo era una stazione ferroviaria.\n\nLa Gare d’Orsay venne costruita per l’Esposizione Universale del 1900. All’epoca era una struttura modernissima e permetteva ai treni di arrivare direttamente nel centro di Parigi. L’architetto Victor Laloux nascose la struttura metallica dietro una facciata monumentale in pietra, perché una stazione troppo industriale sarebbe stata considerata inadatta a una zona così prestigiosa.\n\nCon il passare degli anni i treni divennero più lunghi e la stazione non riuscì più ad adattarsi alle nuove esigenze. L’edificio venne utilizzato in modi diversi e per un periodo rischiò perfino la demolizione.\n\nNegli anni Settanta si decise di trasformarlo in museo e il Musée d’Orsay aprì nel 1986.\n\nLa collezione copre soprattutto il periodo tra il 1848 e il 1914. È quindi una sorta di ponte tra il Louvre e il Centre Pompidou.\n\nLa strategia migliore è salire subito al quinto piano. In questo modo inizi dagli impressionisti quando sei ancora fresco e poi percorri progressivamente il museo in discesa.\n\nQui incontrerai Monet, Renoir, Degas, Pissarro e altri artisti che rivoluzionarono la pittura nella seconda metà dell’Ottocento. Gli impressionisti cercavano di catturare luce, atmosfera e momenti della vita contemporanea, spesso dipingendo all’aperto.\n\nQuando guardi un Monet, avvicinati per osservare le pennellate e poi allontanati di qualche passo. Da vicino il dipinto può sembrare quasi frammentato; da lontano i colori si ricompongono.\n\nCerca anche le opere di Van Gogh. Il suo uso del colore e della pennellata è molto diverso dall’impressionismo e anticipa sviluppi successivi dell’arte moderna.\n\nUno dei punti più fotografati è il grande orologio. Fermati davanti al quadrante e guarda Parigi attraverso il vetro. In quel momento l’identità originaria dell’edificio come stazione diventa evidente.\n\nPoi guarda verso la grande navata centrale. La struttura conserva ancora l’impostazione spaziale ferroviaria e questo rende il museo molto diverso dal Louvre.\n\nUna curiosità: proprio perché l’edificio era una stazione, la luce naturale gioca un ruolo importante nell’esperienza. Gli spazi sono ampi e relativamente facili da leggere.\n\nIl Musée d’Orsay è molto più gestibile del Louvre. Usa gli ascensori quando serve e non cercare di vedere ogni sala.\n\nIl consiglio migliore è scegliere impressionisti, Van Gogh e l’orologio come nucleo principale. Tutto il resto è un bonus.\n\nQuando uscirai, prova a guardare di nuovo la facciata esterna. Sapere che quel grande museo era una stazione ferroviaria cambia completamente il modo di percepirlo."
+          },
+          "photo": {
+            "caption": "Orsay",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Paris_Exterieur_du_Mus%C3%A9e_d%27Orsay_%284%29.jpg/1280px-Paris_Exterieur_du_Mus%C3%A9e_d%27Orsay_%284%29.jpg"
+          },
+          "booking": {
+            "kind": "Ingresso",
+            "url": "https://billetterie.musee-orsay.fr/en-GB/home"
+          },
+          "transportBefore": {
+            "label": "VERSO MUSEO D'ORSAY",
+            "distance": "",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "5 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.8582%2C2.323&daddr=48.85996%2C2.32656&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "5 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "variabile",
+                "price": "~€12–20 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.85996&dropoff%5Blongitude%5D=2.32656&dropoff%5Bnickname%5D=Mus%C3%A9e+d%E2%80%99Orsay",
+                "shortName": "Uber",
+                "shortTime": "~5–15m",
+                "shortPrice": "~€12–20"
+              }
+            ],
+            "originStopId": "d5-colazione-boulangerie-vicino-allhotel-solferino",
+            "originTitle": "Colazione · Solférino",
+            "destinationStopId": "d5-museo-d-orsay",
+            "destinationTitle": "Musée d’Orsay",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.musee-orsay.fr/",
+          "mapDestination": "Musée d’Orsay, Esplanade Valéry Giscard d’Estaing, 75007 Paris"
+        },
+        {
+          "id": "d5-pranzo-orsay",
+          "kind": "food",
+          "kicker": "",
+          "title": "Pranzo · Orsay",
+          "timeLabel": "12:30 - 13:30 • Solférino · Musée d’Orsay",
+          "start": "12:30",
+          "end": "13:30",
+          "durationMinutes": 60,
+          "place": "Solférino · Musée d’Orsay",
+          "priority": "optional",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.85661,
+            "lon": 2.31264
+          },
+          "website": null,
+          "links": [],
+          "tag": "",
+          "summary": "Pausa pranzo semplice nei dintorni del Musée d’Orsay, senza deviazioni inutili.",
+          "highlights": [],
+          "tip": "Pranzo rilassato: c’è margine sufficiente prima di Palais Garnier.",
+          "editorialIntro": "Dopo il Musée d’Orsay conviene restare nella zona Solférino–Saint-Germain per una pausa tranquilla. Il pomeriggio riprende con Palais Garnier alle 16:00.",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "mealRecommendations": [
+            {
+              "name": "Le Crépuscule",
+              "meta": "€ · crêperie",
+              "rating": "4,7",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d4467359-Reviews-Le_Crepuscule-Paris_Ile_de_France.html"
+            },
+            {
+              "name": "Apego",
+              "meta": "€€ · francese",
+              "rating": "4,5",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d4467403-Reviews-Apego-Paris_Ile_de_France.html"
+            },
+            {
+              "name": "Au Pied de Fouet",
+              "meta": "€ · francese",
+              "rating": "4,2",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d784619-Reviews-Au_Pied_de_Fouet-Paris_Ile_de_France.html"
+            }
+          ],
+          "transportBefore": {
+            "label": "COME ARRIVARE",
+            "originStopId": "d5-museo-d-orsay",
+            "originTitle": "Musée d’Orsay",
+            "destinationStopId": "d5-pranzo-orsay",
+            "destinationTitle": "Pranzo · Orsay",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "5–10 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.85996%2C2.32656&daddr=48.85661%2C2.31264&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "5–10 min",
+                "shortPrice": "gratis"
+              }
+            ],
+            "distance": "",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "mapDestination": "Solférino, Paris"
+        },
+        {
+          "id": "d4-galeries-lafayette",
+          "kind": "place",
+          "kicker": "",
+          "title": "Galeries Lafayette",
+          "timeLabel": "14:15–15:15 • Cupola & rooftop · vicino Opéra",
+          "start": "14:15",
+          "end": "15:15",
+          "durationMinutes": 60,
+          "place": "Galeries Lafayette Haussmann",
+          "priority": "normal",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.87378,
+            "lon": 2.33206
+          },
+          "website": "https://haussmann.galerieslafayette.com/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Galeries+Lafayette+Haussmann+Paris"
+            }
+          ],
+          "tag": "Rooftop gratuito • visita flessibile",
+          "summary": "",
+          "highlights": [
+            "Cupola Art Nouveau: il cuore scenografico dei grandi magazzini.",
+            "Rooftop: panorama gratuito sui tetti di Parigi e sulla Tour Eiffel."
+          ],
+          "tip": "Andate prima sul rooftop e solo dopo fate shopping: in novembre luce e visibilità possono peggiorare rapidamente. Se siete stanchi, è la tappa più facile da saltare. Limitare la visita a circa un’ora per lasciare margine all’Opéra e all’Arc de Triomphe.",
+          "editorialIntro": "È una tappa leggera: la cupola Art Nouveau vale pochi minuti, mentre il rooftop offre una lettura molto chiara dello skyline di Parigi, soprattutto verso Opéra, Tour Eiffel e Sacré-Cœur.",
+          "audioGuide": null,
+          "photo": {
+            "caption": "Galeries Lafayette",
+            "src": "https://la-pelucherie.com/cdn/shop/articles/IMG_5029-324663.jpg?v=1611930040"
+          },
+          "booking": null,
+          "resilience": null,
+          "transportBefore": {
+            "label": "SPOSTAMENTO",
+            "distance": "",
+            "originStopId": "d5-pranzo-orsay",
+            "originTitle": "Pranzo · Orsay",
+            "destinationStopId": "d4-galeries-lafayette",
+            "destinationTitle": "Galeries Lafayette",
+            "options": [
+              {
+                "icon": "🚇",
+                "name": "Metro",
+                "time": "20–30 min",
+                "price": "€2,55/p",
+                "href": "https://maps.apple.com/?saddr=48.85661%2C2.31264&daddr=48.87378%2C2.33206&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "20–30 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "15–30 min",
+                "price": "~€25–40 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.87378&dropoff%5Blongitude%5D=2.33206&dropoff%5Bnickname%5D=Galeries+Lafayette",
+                "shortName": "Uber",
+                "shortTime": "15–30 min",
+                "shortPrice": "~€25–40"
+              }
+            ],
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://haussmann.galerieslafayette.com/",
+          "mapDestination": "Galeries Lafayette Haussmann, 40 Boulevard Haussmann, 75009 Paris"
+        },
+        {
+          "id": "d3-palais-garnier",
+          "kind": "place",
+          "kicker": "",
+          "title": "Palais Garnier",
+          "timeLabel": "15:30–17:00 • Palais Garnier · Place de l’Opéra",
+          "start": "15:30",
+          "end": "17:00",
+          "durationMinutes": 90,
+          "place": "Palais Garnier · Place de l’Opéra",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.87197,
+            "lon": 2.3316
+          },
+          "website": "https://www.operadeparis.fr/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Opera+Garnier+Paris"
+            }
+          ],
+          "tag": "Prenotato · visita autonoma · 5 biglietti",
+          "summary": "Visita autonoma al Palais Garnier nel pomeriggio, con attenzione al Grand Escalier, ai foyer e alle decorazioni del teatro.",
+          "highlights": [
+            "Grand Escalier: lo scenografico scalone monumentale in marmo.",
+            "Grand Foyer: ambienti dorati e decorazioni Second Empire.",
+            "Sala: accesso soggetto a prove e attività artistiche."
+          ],
+          "tip": "Ingresso prenotato alle 15:30 (accesso consentito entro 30 minuti). Prevedete un piccolo anticipo per i controlli di sicurezza. Portate i documenti richiesti per la tariffa VEEE. L’accesso alla sala può essere limitato dalle prove.",
+          "editorialIntro": "Il Palais Garnier è una delle visite più teatrali di Parigi anche senza assistere a uno spettacolo. La domenica pomeriggio si inserisce bene dopo una mattina al Musée d’Orsay e una pausa pranzo tranquilla.",
+          "audioGuide": {
+            "title": "Palais Garnier",
+            "text": "Il Palais Garnier è uno dei luoghi in cui l’architettura parigina dell’Ottocento diventa spettacolo. Il teatro fu commissionato durante il regno di Napoleone terzo e progettato dall’architetto Charles Garnier. Venne inaugurato nel 1875, dopo anni di lavori complessi.\n\nLa prima cosa da capire è che questo edificio non era pensato soltanto per assistere a un’opera. Era anche un luogo di rappresentazione sociale. Il pubblico dell’alta società arrivava qui per vedere lo spettacolo, ma anche per essere visto.\n\nIl Grand Escalier è il cuore di questa logica. Quando inizi a salire, non guardare solo davanti a te. Fermati a metà e voltati. Vedrai una composizione di scalinate, balconi, colonne e marmi policromi. Tutto è progettato affinché le persone si mostrino reciprocamente.\n\nGarnier utilizzò marmi provenienti da diverse regioni e colori differenti, creando un effetto volutamente ricco e teatrale. La luce delle lampade e delle dorature amplificava ulteriormente l’impressione di lusso.\n\nProseguendo raggiungerai il Grand Foyer. L’ambiente ricorda volutamente una galleria di palazzo reale. Specchi, dorature e pitture celebrano musica, danza e arti. Anche qui l’architettura è pensata per passeggiare lentamente, incontrarsi e osservare gli altri.\n\nSe la sala teatrale è accessibile durante la visita, entra e guarda verso il soffitto. Nel 1964 Marc Chagall realizzò una nuova decorazione pittorica molto colorata, dedicata a grandi compositori e opere liriche. Il contrasto tra il linguaggio moderno di Chagall e la cornice ottocentesca del teatro fu inizialmente molto discusso.\n\nUna curiosità importante riguarda il celebre Fantasma dell’Opera. Il romanzo di Gaston Leroux rese il Palais Garnier protagonista di una storia misteriosa, sfruttando elementi reali dell’edificio, come i sotterranei e il bacino d’acqua presente sotto il teatro.\n\nNon aspettarti però di poter vedere ogni ambiente. Il Palais Garnier è ancora un teatro attivo e alcune zone, compresa la sala, possono essere chiuse per prove o spettacoli.\n\nIl consiglio è di considerare il Grand Escalier e il Grand Foyer come obiettivi principali. Se la sala è accessibile, è un bonus.\n\nPer le fotografie, la posizione migliore non è necessariamente in cima allo scalone. Prova a fermarti a metà e a guardare verso l’ingresso: da lì si percepisce meglio la struttura teatrale dello spazio.\n\nQuesta visita è relativamente breve rispetto a Louvre o Versailles, ma proprio per questo può essere molto piacevole. Non cercare quantità. Guarda i materiali, le prospettive, le persone che attraversano gli spazi. Garnier progettò un edificio in cui, ancora oggi, il pubblico continua inconsapevolmente a recitare una parte dello spettacolo."
+          },
+          "photo": {
+            "caption": "Palais Garnier",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Palais_Garnier%2C_Paris.jpg/1280px-Palais_Garnier%2C_Paris.jpg"
+          },
+          "booking": {
+            "kind": "Ingresso",
+            "url": "https://www.operadeparis.fr/en/visits/palais-garnier"
+          },
+          "transportBefore": {
+            "label": "SPOSTAMENTO",
+            "distance": "",
+            "originStopId": "d4-galeries-lafayette",
+            "originTitle": "Galeries Lafayette",
+            "destinationStopId": "d3-palais-garnier",
+            "destinationTitle": "Palais Garnier",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "5–10 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.87378%2C2.33206&daddr=48.87197%2C2.3316&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "5–10 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "5–10 min",
+                "price": "~€12–20 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.87197&dropoff%5Blongitude%5D=2.3316&dropoff%5Bnickname%5D=Palais+Garnier",
+                "shortName": "Uber",
+                "shortTime": "5–10 min",
+                "shortPrice": "~€12–20"
+              }
+            ],
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.operadeparis.fr/",
+          "mapDestination": "Palais Garnier, Place de l’Opéra, 75009 Paris"
+        },
+        {
+          "id": "d4-arc-de-triomphe",
+          "kind": "place",
+          "kicker": "",
+          "title": "Arc de Triomphe",
+          "timeLabel": "18:00–18:40 • Solo esterno · foto",
+          "start": "18:00",
+          "end": "18:40",
+          "durationMinutes": 40,
+          "place": "Solo esterno · Place Charles de Gaulle",
+          "priority": "optional",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.87379,
+            "lon": 2.29503
+          },
+          "website": "https://www.paris-arc-de-triomphe.fr/",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Arc+de+Triomphe+Paris"
+            }
+          ],
+          "tag": "🏛️ VISTA ESTERNA & PASSEGGIATA",
+          "summary": "Passaggio scenografico, senza salita. Champs-Élysées non è una tappa autonoma.",
+          "highlights": [
+            "Arco di Trionfo (Solo da Fuori): Monumento neoclassico commissionato da Napoleone dopo la battaglia di Austerlitz. Ammirate i bassorilievi scultorei sulle quattro facciate, tra cui La Marsigliese di François Rude, e la fiamma perenne al Milite Ignoto alla base.",
+            "Champs-Élysées: solo uno sguardo verso il viale; niente passeggiata lunga, per conservare energie per il rientro."
+          ],
+          "tip": "Usate sempre il sottopassaggio pedonale per raggiungere l’Arco: non attraversate la rotonda in superficie. Non salire sulla terrazza è una scelta sensata per conservare energie per la cena.",
+          "editorialIntro": "Nel vostro programma l’Arc de Triomphe è volutamente un passaggio esterno. Bastano pochi minuti per leggere i rilievi, la scala monumentale e la prospettiva sugli Champs-Élysées senza aggiungere scale e attese.",
+          "audioGuide": {
+            "title": "Arc de Triomphe",
+            "text": "L’Arc de Triomphe domina Place Charles de Gaulle, al centro di una delle prospettive urbane più celebri del mondo. Napoleone ordinò la costruzione del monumento nel 1806 dopo la vittoria di Austerlitz. Voleva celebrare l’esercito francese e le proprie vittorie militari.\n\nI lavori durarono però molto più del previsto e l’arco venne completato soltanto nel 1836, molti anni dopo la caduta dell’Impero.\n\nAvvicinandoti, guarda le grandi sculture sulle facciate. Il gruppo più famoso è La Marseillaise di François Rude, realizzato sul lato orientale. Rappresenta volontari francesi che partono per difendere la patria durante la Rivoluzione.\n\nLa figura alata che domina la composizione sembra quasi gridare e trascinare i soldati in avanti. Il movimento delle figure contrasta con la massa pesante e geometrica dell’arco.\n\nSulle superfici del monumento sono incisi nomi di battaglie e generali francesi. L’arco è quindi allo stesso tempo monumento architettonico e grande memoria militare.\n\nNel 1920 venne collocata sotto l’arco la Tomba del Milite Ignoto, dedicata ai soldati francesi morti durante la Prima guerra mondiale. Dal 1923 una fiamma della memoria viene ravvivata ogni sera.\n\nQuesto cambia completamente il significato del luogo. Il monumento nasce per celebrare vittorie e gloria militare, ma alla base ospita uno spazio dedicato alla memoria dei morti.\n\nNel vostro itinerario non è prevista la salita sulla terrazza, ed è una scelta sensata. La terrazza offre una splendida vista sugli Champs-Élysées e sulle dodici grandi strade che convergono sulla piazza, ma richiede tempo ed energie.\n\nRimani quindi all’esterno. Guarda prima La Marseillaise, poi spostati verso la Tomba del Milite Ignoto.\n\nInfine guarda lungo gli Champs-Élysées. Da qui si percepisce perfettamente il grande asse storico di Parigi, che collega Louvre, Tuileries, Place de la Concorde e Arc de Triomphe e prosegue idealmente verso La Défense.\n\nUn consiglio pratico molto importante: non attraversare mai la rotonda in superficie. Usa il sottopassaggio pedonale dedicato.\n\nQuesta visita breve funziona bene anche senza salita: il monumento si comprende perfettamente dall’esterno.\n\nPrima di andare via, allontanati leggermente e osserva l’arco nel traffico che gli gira attorno. È uno dei migliori esempi di come un monumento storico possa diventare il centro geometrico della città contemporanea."
+          },
+          "photo": {
+            "caption": "Arc de Triomphe",
+            "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Arc%20de%20Triomphe%20at%20sunset.jpg?width=1280"
+          },
+          "booking": null,
+          "resilience": "FLEX",
+          "transportBefore": {
+            "label": "SPOSTAMENTO",
+            "distance": "",
+            "originStopId": "d3-palais-garnier",
+            "originTitle": "Palais Garnier",
+            "destinationStopId": "d4-arc-de-triomphe",
+            "destinationTitle": "Arc de Triomphe",
+            "options": [
+              {
+                "icon": "🚇",
+                "name": "Metro",
+                "time": "25–35 min",
+                "price": "€2,55/p",
+                "href": "https://maps.apple.com/?saddr=48.87197%2C2.3316&daddr=48.87379%2C2.29503&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "25–35 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "20–40 min",
+                "price": "~€25–40 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.87379&dropoff%5Blongitude%5D=2.29503&dropoff%5Bnickname%5D=Arc+de+Triomphe",
+                "shortName": "Uber",
+                "shortTime": "20–40 min",
+                "shortPrice": "~€25–40"
+              }
+            ],
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "officialWebsite": "https://www.paris-arc-de-triomphe.fr/",
+          "mapDestination": "Arc de Triomphe, Place Charles de Gaulle, 75008 Paris"
+        },
+        {
+          "id": "d5-cena-les-fondus-de-la-raclette",
+          "kind": "food",
+          "kicker": "",
+          "title": "Cena · Les Fondus de la Raclette",
+          "timeLabel": "19:30 - 21:00 • Montparnasse · 209 Boulevard Raspail",
+          "start": "19:30",
+          "end": "21:00",
+          "durationMinutes": 90,
+          "place": "209 Boulevard Raspail, 75014 Paris",
+          "priority": "essential",
+          "fixed": false,
+          "website": "https://lesfondusdelaraclette.fr/it/montparnasse-restaurant-14eme",
+          "links": [
+            {
+              "label": " Indicazioni",
+              "href": "https://maps.apple.com/?saddr=Current+Location&daddr=209+Boulevard+Raspail%2C+75014+Paris&dirflg=r"
+            }
+          ],
+          "tag": "",
+          "summary": "Cena a base di raclette e fonduta savoiarda nella zona di Montparnasse.",
+          "highlights": [
+            "Raclette",
+            "Fonduta savoiarda",
+            "Specialità a base di formaggi"
+          ],
+          "tip": "Cena prevista alle 19:30. Prenotazione non ancora confermata.",
+          "editorialIntro": "Una serata dedicata alle specialità di montagna francesi, tra raclette e fonduta, nel quartiere di Montparnasse.",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "transportBefore": {
+            "label": "SPOSTAMENTO",
+            "originStopId": "d4-arc-de-triomphe",
+            "originTitle": "Arc de Triomphe",
+            "destinationStopId": "d5-cena-les-fondus-de-la-raclette",
+            "destinationTitle": "Cena · Les Fondus de la Raclette",
+            "options": [
+              {
+                "icon": "🚇",
+                "name": "Metro",
+                "time": "~25–40 min · indicativo",
+                "price": "€2,55/p",
+                "href": "https://maps.apple.com/?saddr=Arc+de+Triomphe%2C+Place+Charles+de+Gaulle%2C+Paris&daddr=209+Boulevard+Raspail%2C+75014+Paris&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "25–40 min",
+                "shortPrice": "€2,55/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "~20–40 min · indicativo",
+                "price": "prezzo variabile /auto",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Bformatted_address%5D=209+Boulevard+Raspail%2C+75014+Paris&dropoff%5Bnickname%5D=Les+Fondus+de+la+Raclette+Montparnasse",
+                "shortName": "Uber",
+                "shortTime": "20–40 min",
+                "shortPrice": "stima live"
+              }
+            ],
+            "estimateDisclaimer": "Partire dall’Arc de Triomphe intorno alle 18:45 per arrivare alla cena delle 19:30. Tempi indicativi: verifica il percorso aggiornato in Mappe Apple."
+          },
+          "officialWebsite": "https://lesfondusdelaraclette.fr/it/montparnasse-restaurant-14eme",
+          "mapDestination": "209 Boulevard Raspail, 75014 Paris"
+        },
+        {
+          "id": "2026-11-15-rientro-hotel",
+          "kind": "hotel",
+          "title": "Rientro in hotel",
+          "place": "Hotel Apollinaire · 39 Rue Delambre",
+          "start": "21:00",
+          "end": "21:30",
+          "durationMinutes": 30,
+          "timeLabel": "21:00 - 21:30 • Hotel Apollinaire",
+          "coordinates": {
+            "lat": 48.8428,
+            "lon": 2.3271
+          },
+          "priority": "fixed",
+          "resilience": "FIXED",
+          "summary": "",
+          "transportBefore": {
+            "label": "RIENTRO IN HOTEL",
+            "originStopId": "d5-cena-les-fondus-de-la-raclette",
+            "originTitle": "Cena · Les Fondus de la Raclette",
+            "destinationStopId": "2026-11-15-rientro-hotel",
+            "destinationTitle": "Rientro in hotel",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "~5–10 min · indicativo",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=209+Boulevard+Raspail%2C+75014+Paris&daddr=Hotel+Apollinaire%2C+39+Rue+Delambre%2C+75014+Paris&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "5–10 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "traffico variabile",
+                "price": "tariffa nell’app",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Bformatted_address%5D=Hotel+Apollinaire%2C+39+Rue+Delambre%2C+75014+Paris",
+                "shortName": "Uber",
+                "shortTime": "live",
+                "shortPrice": "live"
+              }
+            ],
+            "estimateDisclaimer": "Consulta Mappe Apple per il percorso pedonale aggiornato."
+          },
+          "mapDestination": "Hotel Apollinaire, 39 Rue Delambre, 75014 Paris"
+        }
+      ],
+      "pace": "RELAXED",
+      "paceNote": "Orsay e Invalides sono le sole visite vere; dalle 14:30 il pomeriggio resta libero fino alla cena."
+    },
+    {
+      "id": "day6",
+      "date": "2026-11-16",
+      "dateLabel": "Lunedì 16 Novembre",
+      "subtitle": "Check-out & Volo di Rientro",
+      "accent": "#FF375F",
+      "stops": [
+        {
+          "id": "d6-colazione-boulangerie-cafe-vicino-allhotel-apollinaire",
+          "kind": "food",
+          "kicker": "",
+          "title": "Colazione · Montparnasse",
+          "timeLabel": "07:30 - 08:00 • vicino hotel",
+          "start": "07:30",
+          "end": "08:00",
+          "durationMinutes": 30,
+          "place": "Montparnasse",
+          "priority": "optional",
+          "fixed": false,
+          "coordinates": {
+            "lat": 48.84173,
+            "lon": 2.32894
+          },
+          "website": null,
+          "links": [],
+          "tag": "",
+          "summary": "",
+          "highlights": [],
+          "tip": "",
+          "editorialIntro": "",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "mealRecommendations": [
+            {
+              "name": "Harmony Café Paris",
+              "meta": "€€ · café",
+              "rating": "4,3",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d4263607-Reviews-Harmony_Cafe_Paris-Paris_Ile_de_France.html"
+            },
+            {
+              "name": "Les Fauves",
+              "meta": "€€ · francese",
+              "rating": "4,2",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d12058517-Reviews-Les_Fauves-Paris_Ile_de_France.html"
+            },
+            {
+              "name": "Paris Baguette · Montparnasse",
+              "meta": "€ · bakery",
+              "rating": "—",
+              "tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187147-d32880387-Reviews-Paris_Baguette_Montparnasse-Paris_Ile_de_France.html"
+            }
+          ],
+          "mapDestination": "Montparnasse, Paris",
+          "transportBefore": {
+            "origin": "Hotel Apollinaire, 39 Rue Delambre, 75014 Paris",
+            "destination": "Montparnasse, Paris",
+            "destinationStopId": "d6-colazione-boulangerie-cafe-vicino-allhotel-apollinaire",
+            "options": [
+              {
+                "name": "A piedi",
+                "time": "~5–8 min",
+                "price": "gratis",
+                "icon": "🚶",
+                "href": "https://maps.apple.com/?saddr=39+Rue+Delambre%2C+Paris&daddr=48.84173%2C2.32894&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "5–8 min",
+                "shortPrice": "gratis"
+              },
+              {
+                "name": "Uber",
+                "time": "~3–5 min",
+                "price": "~€10–15 /auto · stima",
+                "icon": "🚗",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.84173&dropoff%5Blongitude%5D=2.32894&dropoff%5Bnickname%5D=Colazione+%C2%B7+Montparnasse",
+                "shortName": "Uber",
+                "shortTime": "3–5 min",
+                "shortPrice": "~€10–15"
+              }
+            ],
+            "destinationTitle": "Colazione · Montparnasse",
+            "distance": "",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          }
+        },
+        {
+          "id": "d6-hotel-checkout-bagagli",
+          "kind": "hotel",
+          "kicker": "",
+          "title": "Hotel · Check-out",
+          "timeLabel": "09:00 - 09:15 • Hotel Apollinaire · 39 Rue Delambre",
+          "start": "09:00",
+          "end": "09:15",
+          "durationMinutes": 15,
+          "place": "Hotel Apollinaire",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.84173,
+            "lon": 2.32894
+          },
+          "website": "https://www.hotel-apollinaire.com/",
+          "links": [],
+          "tag": "",
+          "summary": "",
+          "highlights": [],
+          "tip": "",
+          "editorialIntro": "",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "transportBefore": {
+            "label": "COME ARRIVARE",
+            "originStopId": "d6-colazione-boulangerie-cafe-vicino-allhotel-apollinaire",
+            "originTitle": "Colazione · Montparnasse",
+            "destinationStopId": "d6-hotel-checkout-bagagli",
+            "destinationTitle": "Hotel · Check-out",
+            "options": [
+              {
+                "icon": "🚶",
+                "name": "A piedi",
+                "time": "3–5 min",
+                "price": "gratis",
+                "href": "https://maps.apple.com/?saddr=48.84173%2C2.32894&daddr=48.84173%2C2.32894&dirflg=w",
+                "shortName": "A piedi",
+                "shortTime": "3–5 min",
+                "shortPrice": "gratis"
+              }
+            ],
+            "distance": "",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "mapDestination": "Hotel Apollinaire, 39 Rue Delambre, 75014 Paris"
+        },
+        {
+          "id": "d6-partenza-orly",
+          "kind": "transfer",
+          "kicker": "",
+          "title": "Partenza per Orly · 09:30",
+          "timeLabel": "09:30 - 10:15 • Partenza per Orly",
+          "start": "09:30",
+          "end": "10:15",
+          "durationMinutes": 45,
+          "place": "Hotel → Orly",
+          "priority": "must",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.7262,
+            "lon": 2.3652
+          },
+          "website": "",
+          "links": [],
+          "tag": "",
+          "summary": "",
+          "highlights": [],
+          "tip": "Piano B: controllare stato della linea 14 e traffico prima di partire; anticipare la partenza se necessario.",
+          "editorialIntro": "",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "transportBefore": {
+            "label": "COME ARRIVARE",
+            "originStopId": "d6-hotel-checkout-bagagli",
+            "originTitle": "Hotel · Check-out",
+            "destinationStopId": "d6-partenza-orly",
+            "destinationTitle": "Partenza per Orly · 09:30",
+            "options": [
+              {
+                "icon": "🚆",
+                "name": "Trasporto pubblico",
+                "time": "35–50 min",
+                "price": "€14/p",
+                "href": "https://maps.apple.com/?saddr=48.84173%2C2.32894&daddr=48.7262%2C2.3652&dirflg=r",
+                "shortName": "Metro",
+                "shortTime": "35–50 min",
+                "shortPrice": "€14/p"
+              },
+              {
+                "icon": "🚗",
+                "name": "Uber",
+                "time": "~30–60 min (traffico variabile)",
+                "price": "~€35–70 /auto · stima",
+                "href": "https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=48.7262&dropoff%5Blongitude%5D=2.3652&dropoff%5Bnickname%5D=Partenza+per+Orly+%C2%B7+09%3A30",
+                "shortName": "Uber",
+                "shortTime": "30–60 min",
+                "shortPrice": "~€35–70"
+              }
+            ],
+            "distance": "",
+            "estimateDisclaimer": "Durate indicative; apri Mappe di Apple per il percorso e il tempo aggiornati."
+          },
+          "mapDestination": "Paris Orly Airport"
+        },
+        {
+          "id": "d6-volo-parigi-orly-ory-palermo-pmo",
+          "kind": "flight",
+          "kicker": "VOLO DI RITORNO",
+          "title": "Volo ORY → PMO",
+          "timeLabel": "Partenza ore 12:55 ➔ Arrivo a Palermo ore 15:25",
+          "start": "12:55",
+          "end": "15:25",
+          "durationMinutes": 150,
+          "place": "",
+          "priority": "essential",
+          "fixed": true,
+          "coordinates": {
+            "lat": 48.72624,
+            "lon": 2.36525
+          },
+          "website": null,
+          "links": [
+            {
+              "label": "📲 Apple Wallet",
+              "href": "shoebox://"
+            },
+            {
+              "label": " Indicazioni",
+              "href": "maps://?q=Paris+Orly+Airport"
+            }
+          ],
+          "tag": "",
+          "summary": "",
+          "highlights": [],
+          "tip": "",
+          "editorialIntro": "",
+          "audioGuide": null,
+          "photo": null,
+          "booking": null,
+          "mapDestination": "Paris Orly Airport"
+        }
+      ],
+      "pace": "EASY",
+      "paceNote": "Mattina protetta: partenza per Orly entro le 09:30."
+    }
+  ]
+}

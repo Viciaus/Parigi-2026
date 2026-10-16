@@ -1,0 +1,12 @@
+Parigi 2026 — v7.0.0
+
+IMPORTANTE: caricare il CONTENUTO di questo ZIP nella root del repository GitHub Pages (non lo ZIP stesso).
+Eliminare dal repository i vecchi file di installazione e le vecchie icone non piu usate.
+
+Dopo il deploy, verificare:
+https://viciaus.github.io/Parigi-2026/eiffel-7000/apple-touch-icon.png
+https://viciaus.github.io/Parigi-2026/index.html?v=7000
+
+Aprire la seconda pagina in Safari (non il browser interno di altre app). Da Condividi > Aggiungi alla schermata Home, controllare l'anteprima prima di confermare. Se l'anteprima e ancora una P, non installare: verificare il documento HTML effettivamente pubblicato e la cache di Safari.
+
+Questa versione ricostruisce la configurazione dell'installazione iOS e preserva le funzioni della app 6.9.0. Non puo essere certificata su iPhone senza test reale.

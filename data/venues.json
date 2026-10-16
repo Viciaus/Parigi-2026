@@ -1,0 +1,185 @@
+{
+  "planned": [
+    {
+      "name": "Le Relais de l'Entrecôte",
+      "day": "Mer 11",
+      "type": "Cena",
+      "price": "€€",
+      "directions": "https://maps.apple.com/?q=Le+Relais+de+l%27Entrecote+Paris",
+      "menu": "https://www.lerelaisdelentrecote.com/",
+      "strong": [
+        "Insalata verde con noci",
+        "Controfiletto con salsa segreta",
+        "Pommes frites",
+        "Tarte aux pommes"
+      ],
+      "note": "Formula fissa: la scelta principale è la cottura della carne.",
+      "website": "https://www.lerelaisdelentrecote.com/"
+    },
+    {
+      "name": "Cédric Grolet Opéra",
+      "day": "Gio 12",
+      "type": "Colazione",
+      "price": "€€€",
+      "directions": "https://maps.apple.com/?q=Cedric+Grolet+Opera+35+Avenue+de+l%27Opera+Paris",
+      "menu": "https://cedric-grolet.com/opera/en/",
+      "strong": [
+        "Viennoiserie",
+        "Fleurs di stagione",
+        "Creazioni trompe-l’œil",
+        "Vaniglia / frutta di stagione"
+      ],
+      "note": "Alta pasticceria; selezione e disponibilità cambiano stagionalmente.",
+      "website": "https://cedric-grolet.com/opera/en/"
+    },
+    {
+      "name": "Bouillon Chartier",
+      "day": "Ven 13",
+      "type": "Cena",
+      "price": "€",
+      "directions": "https://maps.apple.com/?q=Bouillon+Chartier+Grands+Boulevards+Paris",
+      "menu": "https://www.bouillon-chartier.com/en/",
+      "strong": [
+        "Œuf mayonnaise",
+        "Boeuf bourguignon / piatti del giorno",
+        "Salsiccia e purè",
+        "Mousse au chocolat"
+      ],
+      "note": "Cucina tradizionale economica; il menu cambia con stagione e disponibilità.",
+      "website": "https://www.bouillon-chartier.com/"
+    },
+    {
+      "name": "Bouillon Pigalle",
+      "day": "Giovedì 12",
+      "type": "Cena · bouillon francese",
+      "price": "€–€€",
+      "website": "https://bouillonlesite.com/bouillon-pigalle",
+      "directions": "https://maps.apple.com/?q=Bouillon+Pigalle+Paris",
+      "strong": [
+        "classici francesi",
+        "piatti da bouillon",
+        "dessert tradizionali"
+      ],
+      "note": "Economico e perfetto dopo Moulin Rouge."
+    },
+    {
+      "name": "Les Fondus de la Raclette",
+      "day": "Dom 15 · 19:30",
+      "type": "Cena · Montparnasse · da prenotare",
+      "price": "€€",
+      "website": "https://lesfondusdelaraclette.fr/it/montparnasse-restaurant-14eme",
+      "directions": "https://maps.apple.com/?daddr=209+Boulevard+Raspail%2C+75014+Paris&dirflg=d",
+      "strong": [
+        "raclette",
+        "fonduta savoiarda",
+        "specialità a base di formaggi"
+      ],
+      "note": "209 Boulevard Raspail, 75014 Paris · domenica 15 novembre, 19:30 · da prenotare. Trasferimento da Arc de Triomphe: metro ~25–40 min oppure Uber ~20–40 min (stime indicative).",
+      "menu": "https://lesfondusdelaraclette.fr/it/montparnasse-restaurant-14eme"
+    },
+    {
+      "name": "Aux Merveilleux de Fred · Odéon",
+      "day": "Sabato 14",
+      "type": "Colazione · pâtisserie",
+      "price": "€",
+      "website": "https://www.auxmerveilleux.fr/adresses/",
+      "directions": "https://maps.apple.com/?q=Aux+Merveilleux+de+Fred+1+rue+de+l%27Ancienne+Comedie+Paris",
+      "strong": [
+        "cramique",
+        "Merveilleux",
+        "gaufre fourrée"
+      ],
+      "note": "1 rue de l’Ancienne Comédie · apertura 07:30."
+    },
+    {
+      "name": "Pain Vin Fromages",
+      "day": "Sab 14",
+      "type": "Cena · da prenotare",
+      "price": "€€ · circa €30–40/p",
+      "directions": "https://www.google.com/maps/search/?api=1&query=Pain+Vin+Fromages+3+Rue+Geoffroy+lAngevin+Paris",
+      "menu": "https://painvinfromages.com/notre-menu/",
+      "website": "https://painvinfromages.com/",
+      "reservation": "https://painvinfromages.com/reservation/",
+      "strong": [
+        "Fonduta savoiarda",
+        "Raclette",
+        "Taglieri di formaggi francesi"
+      ],
+      "note": "Cena proposta, non ancora prenotata. Richiedere un tavolo per cinque persone."
+    }
+  ],
+  "tbd": [
+    {
+      "name": "Boulangerie Montparnasse",
+      "day": "Ven 13",
+      "type": "Colazione",
+      "price": "€",
+      "strong": [
+        "Croissant",
+        "Pain au chocolat",
+        "Caffè"
+      ],
+      "directions": "https://maps.apple.com/?q=Boulangerie+Montparnasse+Paris"
+    },
+    {
+      "name": "Bakery / café Saint-Michel–Cité",
+      "day": "Sab 14",
+      "type": "Colazione",
+      "price": "€",
+      "strong": [
+        "Viennoiserie",
+        "Caffè",
+        "Colazione rapida"
+      ],
+      "directions": "https://maps.apple.com/?q=Bakery+Saint-Michel+Paris"
+    },
+    {
+      "name": "Boulangerie Hotel / Solférino",
+      "day": "Dom 15",
+      "type": "Colazione",
+      "price": "€",
+      "strong": [
+        "Croissant",
+        "Viennoiserie",
+        "Caffè"
+      ],
+      "directions": "https://maps.apple.com/?q=Boulangerie+Solferino+Paris"
+    },
+    {
+      "name": "Pausa pranzo Invalides",
+      "day": "Dom 15",
+      "type": "Pausa pranzo",
+      "price": "€€",
+      "strong": [
+        "Pranzo leggero",
+        "Caffè",
+        "Pausa seduta"
+      ],
+      "directions": "https://maps.apple.com/?q=Cafe+Invalides+Paris"
+    },
+    {
+      "name": "Aperitivo South Pigalle",
+      "day": "Dom 15",
+      "type": "Pausa / aperitivo",
+      "price": "€€",
+      "strong": [
+        "Aperitivo",
+        "Snack",
+        "Pausa prima di cena"
+      ],
+      "directions": "https://maps.apple.com/?q=Bar+South+Pigalle+Paris"
+    },
+    {
+      "name": "Boulangerie / café Hotel Apollinaire",
+      "day": "Lun 16",
+      "type": "Colazione",
+      "price": "€",
+      "strong": [
+        "Croissant",
+        "Pain au chocolat",
+        "Caffè"
+      ],
+      "directions": "https://maps.apple.com/?q=Boulangerie+near+Hotel+Apollinaire+Paris"
+    }
+  ]
+}

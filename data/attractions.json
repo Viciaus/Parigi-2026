@@ -1,0 +1,198 @@
+[
+  {
+    "id": "d1-passeggiata-attorno-alla-tour-eiffel",
+    "name": "Passeggiata attorno alla Tour Eiffel",
+    "day": "Mercoledì 11 Novembre",
+    "website": "https://www.toureiffel.paris/",
+    "maps": "https://maps.apple.com/?daddr=48.85837,2.29448",
+    "note": "La Tour Eiffel è molto più interessante quando la si guarda da più prospettive invece di fermarsi sotto la struttura. Il percorso tra Trocadéro, Pont d’Iéna e Champ de Mars permette di percepirne le proporzioni, la trama metallica e il modo in cui cambia con la luce del tardo pomeriggio.",
+    "price": "Gratis",
+    "priceNote": "solo esterno",
+    "bookingStatus": "not_needed"
+  },
+  {
+    "id": "d1-giro-in-battello-sulla-senna",
+    "day": "Mercoledì 11 Novembre",
+    "name": "Crociera sulla Senna",
+    "website": "https://www.bateaux-mouches.fr/fr",
+    "maps": "https://maps.apple.com/?q=Bateaux+Mouches+Paris",
+    "price": "€17",
+    "priceNote": "online",
+    "bookingStatus": "booked",
+    "note": "Crociera serale sulla Senna dopo la Tour Eiffel.",
+    "ticketFiles": [
+      {
+        "label": "Biglietti",
+        "path": "biglietti/crociera-completa.pdf"
+      }
+    ]
+  },
+  {
+    "id": "d3-museo-del-louvre",
+    "name": "Museo del Louvre",
+    "day": "Venerdì 13 Novembre",
+    "website": "https://www.louvre.fr/",
+    "maps": "https://maps.apple.com/?daddr=48.86061,2.33764",
+    "note": "Il Louvre non si visita davvero in tre ore: si costruisce un percorso. L’obiettivo è alternare grandi icone e sale più tranquille, evitando di consumare tutte le energie davanti alla Gioconda. Il palazzo stesso — scaloni, corti e prospettive — è parte dell’esperienza.",
+    "price": "€22",
+    "priceNote": "residenti UE/EEA",
+    "bookingStatus": "booked",
+    "ticketFiles": [
+      {
+        "label": "Apri biglietti PDF",
+        "path": "biglietti/louvre.pdf"
+      }
+    ]
+  },
+  {
+    "id": "d2-reggia-di-versailles-giardini",
+    "name": "Reggia di Versailles & Giardini",
+    "day": "Giovedì 12 Novembre",
+    "website": "https://www.chateauversailles.fr/",
+    "maps": "https://maps.apple.com/?daddr=48.80486,2.12036",
+    "note": "Versailles è il luogo in cui l’idea di monarchia assoluta diventa spazio, prospettiva e cerimoniale. La visita funziona meglio se si privilegia il Palazzo e si considera il giardino come completamento, non come una seconda maratona.",
+    "price": "€22",
+    "priceNote": "residenti UE/EEA",
+    "bookingStatus": "booked",
+    "ticketFiles": [
+      {
+        "label": "Apri biglietti PDF",
+        "path": "biglietti/versailles.pdf"
+      }
+    ]
+  },
+  {
+    "id": "d3-palais-garnier",
+    "name": "Palais Garnier",
+    "day": "Domenica 15 Novembre",
+    "website": "https://www.operadeparis.fr/en/visits/visit-and-explore/visit-the-palais-garnier",
+    "maps": "https://maps.apple.com/?daddr=48.87197,2.3316",
+    "note": "Visita prenotata domenica 15 novembre alle 15:30. Ingresso consentito entro 30 minuti; possibile controllo dei documenti per tariffa VEEE. L’accesso alla sala teatrale non è garantito.",
+    "price": "€15",
+    "priceNote": "residenti UE/EEA",
+    "bookingStatus": "booked",
+    "ticketFiles": [
+      {
+        "label": "Biglietti Palais Garnier (5 ingressi)",
+        "path": "biglietti/palais-garnier.pdf"
+      }
+    ]
+  },
+  {
+    "id": "d4-galeries-lafayette",
+    "name": "Galeries Lafayette & Rooftop (facoltativo)",
+    "day": "Sabato 14 Novembre",
+    "website": "https://haussmann.galerieslafayette.com/",
+    "maps": "https://maps.apple.com/?daddr=48.87378,2.33206",
+    "note": "È una tappa leggera: la cupola Art Nouveau vale pochi minuti, mentre il rooftop offre una lettura molto chiara dello skyline di Parigi, soprattutto verso Opéra, Tour Eiffel e Sacré-Cœur.",
+    "price": "Gratis",
+    "priceNote": "rooftop",
+    "bookingStatus": "not_needed"
+  },
+  {
+    "id": "d4-sainte-chapelle",
+    "name": "Sainte-Chapelle",
+    "day": "Sabato 14 Novembre",
+    "website": "https://www.sainte-chapelle.fr/",
+    "maps": "https://maps.apple.com/?daddr=48.8554,2.34501",
+    "note": "La Sainte-Chapelle è una delle esperienze più concentrate e spettacolari del viaggio. La cappella superiore sembra quasi smaterializzata dalle vetrate: la struttura in pietra scompare e resta una grande parete di luce colorata.",
+    "price": "€16",
+    "priceNote": "residenti UE/EEA",
+    "bookingStatus": "booked",
+    "ticketFiles": [
+      {
+        "label": "Apri biglietti PDF",
+        "path": "biglietti/sainte-chapelle.pdf"
+      }
+    ]
+  },
+  {
+    "id": "d4-notre-dame-de-paris",
+    "name": "Notre-Dame de Paris",
+    "day": "Sabato 14 Novembre",
+    "website": "https://www.notredamedeparis.fr/",
+    "maps": "https://maps.apple.com/?daddr=48.85297,2.3499",
+    "note": "Notre-Dame è tornata a essere uno dei luoghi simbolici della città. Dopo il restauro gli interni risultano più luminosi e leggibili, ma la visita acquista senso soprattutto combinando navata, facciata e abside esterna.",
+    "price": "€15 a persona",
+    "priceNote": "visita guidata prenotata · ingresso alla cattedrale gratuito",
+    "bookingStatus": "booked"
+  },
+  {
+    "id": "d4-pantheon-vista-esterna-jardin-du-luxembourg",
+    "name": "Jardin du Luxembourg · Panthéon solo di passaggio",
+    "day": "Sabato 14 Novembre",
+    "website": "https://www.paris-pantheon.fr/",
+    "maps": "https://maps.apple.com/?daddr=48.84622,2.34641",
+    "note": "Il giardino è la vera tappa; il Panthéon resta un passaggio esterno e non una visita autonoma.",
+    "price": "Gratis",
+    "priceNote": "giardino / esterno",
+    "bookingStatus": "not_needed"
+  },
+  {
+    "id": "d5-museo-d-orsay",
+    "name": "Museo d'Orsay",
+    "day": "Domenica 15 Novembre",
+    "website": "https://www.musee-orsay.fr/",
+    "maps": "https://maps.apple.com/?daddr=48.85996,2.32656",
+    "note": "Il Musée d’Orsay è più leggibile del Louvre e per questo può diventare uno dei musei più piacevoli del viaggio. La vecchia stazione ferroviaria è già un’opera: navata, luce naturale e grande orologio costruiscono l’esperienza insieme ai dipinti.",
+    "price": "€16",
+    "priceNote": "online",
+    "bookingStatus": "booked",
+    "ticketFiles": [
+      {
+        "label": "Apri biglietti PDF",
+        "path": "biglietti/orsay.pdf"
+      }
+    ]
+  },
+  {
+    "id": "d5-hotel-des-invalides-tomba-di-napoleone",
+    "name": "Hôtel des Invalides & Tomba di Napoleone",
+    "day": "Venerdì 13 Novembre",
+    "website": "https://www.musee-armee.fr/",
+    "maps": "https://maps.apple.com/?daddr=48.85661,2.31264",
+    "note": "Visita mirata al Dôme e alla tomba di Napoleone nel pomeriggio, dopo il rientro da Versailles.",
+    "price": "€17",
+    "priceNote": "residenti UE/EEA",
+    "bookingStatus": "booked",
+    "ticketFiles": [
+      {
+        "label": "Apri biglietti PDF",
+        "path": "biglietti/invalides.pdf"
+      }
+    ]
+  },
+  {
+    "id": "d4-arc-de-triomphe",
+    "name": "Arc de Triomphe · esterno",
+    "day": "Sabato 14 Novembre",
+    "website": "https://www.paris-arc-de-triomphe.fr/",
+    "maps": "https://maps.apple.com/?daddr=48.87379,2.29503",
+    "note": "Nel vostro programma l’Arc de Triomphe è volutamente un passaggio esterno. Bastano pochi minuti per leggere i rilievi, la scala monumentale e la prospettiva sugli Champs-Élysées senza aggiungere scale e attese.",
+    "price": "Gratis",
+    "priceNote": "solo esterno",
+    "bookingStatus": "not_needed"
+  },
+  {
+    "id": "d2-montmartre-basilica",
+    "name": "Montmartre & Basilica del Sacro Cuore",
+    "day": "Giovedì 12 Novembre",
+    "website": "https://www.sacre-coeur-montmartre.fr/",
+    "maps": "https://maps.apple.com/?daddr=48.8867,2.3431",
+    "note": "Pomeriggio dedicato alla Butte: Abbesses, Sacré-Cœur, Place du Tertre, stradine di Montmartre e discesa lungo Rue Lepic.",
+    "price": "Gratis",
+    "priceNote": "basilica",
+    "bookingStatus": "not_needed"
+  },
+  {
+    "id": "d2-moulin-rouge",
+    "name": "Moulin Rouge · passaggio esterno",
+    "day": "Giovedì 12 Novembre",
+    "website": "https://www.moulinrouge.fr/",
+    "maps": "https://maps.apple.com/?daddr=48.88413,2.33238",
+    "note": "È una sosta breve ma iconica: il Moulin Rouge rappresenta la Parigi della Belle Époque, dei cabaret e di Pigalle. Non serve entrare per apprezzare l’effetto scenografico della facciata e del celebre mulino rosso.",
+    "price": "Gratis",
+    "priceNote": "solo esterno",
+    "bookingStatus": "not_needed"
+  }
+]

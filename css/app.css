@@ -1,0 +1,382 @@
+:root{
+  --bg:#f2f2f7;
+  --surface:#fff;
+  --glass:rgba(255,255,255,.68);
+  --soft:rgba(118,118,128,.075);
+  --ink:#111114;
+  --muted:rgba(60,60,67,.62);
+  --faint:rgba(60,60,67,.36);
+  --line:rgba(60,60,67,.12);
+  --blue:#007aff;
+  --green:#34c759;
+  --orange:#ff9f0a;
+  --red:#ff453a;
+  --indigo:#5856d6;
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Arial,sans-serif;
+}
+@media(prefers-color-scheme:dark){
+  :root{
+    --bg:#000;--surface:#1c1c1e;--glass:rgba(28,28,30,.76);
+    --soft:rgba(118,118,128,.16);--ink:#fff;--muted:rgba(235,235,245,.64);
+    --faint:rgba(235,235,245,.40);--line:rgba(235,235,245,.13);
+  }
+}
+*{box-sizing:border-box}
+html{background:var(--bg);color:var(--ink);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-size:16px;-webkit-font-smoothing:antialiased}
+button,input,a{font:inherit} button{color:inherit} a{color:inherit}
+body.panel-open{overflow:hidden}
+
+/* HEADER */
+.hero{position:sticky;top:0;z-index:1400;padding:calc(7px + env(safe-area-inset-top)) 14px 7px;background:rgba(242,242,247,.78);backdrop-filter:blur(28px) saturate(165%);-webkit-backdrop-filter:blur(28px) saturate(165%);border-bottom:.5px solid var(--line)}
+@media(prefers-color-scheme:dark){.hero{background:rgba(0,0,0,.78)}}
+.hero-top{display:grid;grid-template-columns:36px 1fr 36px;align-items:center}
+.hero-spacer{width:36px}.brand{text-align:center;font-size:42px;line-height:.94;font-weight:770;letter-spacing:-.065em}
+.hero-btn{width:36px;height:36px;border:0;border-radius:50%;background:transparent;display:grid;place-items:center;font-size:20px}
+.hero-meta{margin-top:4px;display:flex;justify-content:center;gap:5px;align-items:center;font-size:9.5px;color:var(--muted)}
+.hero-meta a{text-decoration:none}
+.header-weather{margin:5px auto 0;display:flex;align-items:center;justify-content:center;gap:5px;width:max-content;max-width:100%;font-size:9px;color:var(--muted)}
+.weather-symbol{font-size:10px}
+.dayrail{display:grid;grid-template-columns:repeat(6,1fr);gap:2px;margin-top:6px;padding:2px;border-radius:14px;background:var(--soft)}
+.dayrail button{min-width:0;min-height:29px;padding:2px 0;border:0;border-radius:10px;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;color:var(--muted)}
+.dayrail button.active{background:var(--surface);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.04)}
+.day-dow{font-size:6px;font-weight:780}.day-num{font-size:10px;font-weight:760}
+.live-strip{width:100%;margin-top:5px;min-height:31px;padding:5px 8px;border:0;border-radius:10px;background:rgba(52,199,89,.065);display:grid;grid-template-columns:8px minmax(0,1fr) auto 14px;gap:6px;align-items:center;text-align:left;color:var(--ink)}
+.live-strip strong{font-size:9px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.live-strip>span:not(.live-dot){font-size:7.5px;color:var(--muted)}.live-strip b{font-size:9px;color:var(--green)}
+.live-dot{width:7px;height:7px;border-radius:50%;background:var(--green);animation:livePulse 1.5s ease-in-out infinite}
+@keyframes livePulse{50%{opacity:.35;transform:scale(.8)}} @media(prefers-reduced-motion:reduce){.live-dot{animation:none}}
+
+/* DAY HEADER */
+.content{max-width:560px;margin:0 auto;padding:10px 14px calc(90px + env(safe-area-inset-bottom))}
+.dayhead{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin:17px 0 12px}
+.dayhead h2{margin:0;font-size:25px;line-height:1.03;letter-spacing:-.045em}.dayhead p{margin:4px 0 0;font-size:10px;color:var(--muted)}
+.pace{display:inline-flex;align-items:center;min-height:20px;padding:4px 7px;border:0;border-radius:999px;font-size:7px;font-weight:800;letter-spacing:.08em}
+.pace-relaxed{background:rgba(52,199,89,.09);color:#248a3d}.pace-light{background:rgba(90,200,250,.10);color:#0077a6}
+.pace-moderate{background:rgba(255,159,10,.09);color:#ad5c00}.pace-intense{background:rgba(255,69,58,.09);color:#c9342b}.pace-neutral{background:var(--soft);color:var(--muted)}
+
+/* DAY FLOW */
+.day-flow{position:relative}
+.flow-event,.flow-transfer,.flow-free{display:grid;grid-template-columns:48px 18px minmax(0,1fr);column-gap:7px}
+.flow-clock{padding-top:6px;text-align:right;font-variant-numeric:tabular-nums}
+.flow-clock strong{display:block;font-size:11px;line-height:1;font-weight:790;letter-spacing:-.03em}
+.flow-clock span{display:block;margin-top:4px;font-size:7px;color:var(--faint)}
+.flow-rail,.flow-transfer-rail,.flow-free-rail{position:relative;display:flex;justify-content:center}
+.flow-rail:before,.flow-transfer-rail:before,.flow-free-rail:before{content:"";position:absolute;top:0;bottom:0;width:.5px;background:var(--line)}
+.flow-node{position:relative;z-index:2;width:8px;height:8px;margin-top:7px;border-radius:50%;background:var(--surface);border:1.5px solid var(--faint);box-shadow:0 0 0 3px var(--bg)}
+.flow-event.current .flow-node{background:var(--green);border-color:var(--green);box-shadow:0 0 0 4px rgba(52,199,89,.10)}
+.flow-event.past .flow-node{background:var(--faint);border-color:transparent}
+.flow-event.terminal .flow-node{width:11px;height:11px;margin-top:5px;background:var(--bg);border:2px solid var(--indigo)}
+.flow-event-body{min-width:0;margin-bottom:9px;padding:5px 2px 10px;border-bottom:.5px solid var(--line);transition:background .18s ease,border-color .18s ease,padding .18s ease,border-radius .18s ease}
+.flow-event.current .flow-event-body{padding:10px 11px 11px;border:.5px solid rgba(52,199,89,.13);border-radius:17px;background:rgba(52,199,89,.055);backdrop-filter:blur(18px) saturate(135%)}
+.flow-event.past .flow-event-body{opacity:.48}
+.flow-now{display:flex;align-items:center;gap:5px;margin-bottom:5px;font-size:7px;font-weight:820;letter-spacing:.1em;color:var(--green)}
+.flow-title-row{display:flex;align-items:flex-start;gap:7px}
+.flow-title{min-width:0;flex:1;display:flex;align-items:baseline;gap:5px;font-size:16.5px;line-height:1.12;font-weight:730;letter-spacing:-.035em}
+.flow-kind{flex:none;font-size:10px;color:var(--faint);font-weight:500}
+.flow-title-link{text-decoration:none;color:inherit}.flow-title-link>span{font-size:8px;color:var(--faint);vertical-align:.18em}
+.flow-place{margin-top:3px;font-size:8.5px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.flow-map{display:inline-block;margin-top:6px;text-decoration:none;color:var(--blue);font-size:9px;font-weight:680}
+.booking-chip{flex:none;border:0;border-radius:999px;padding:4px 6px;min-height:18px;font-size:6.4px;font-weight:800;white-space:nowrap}
+.booking-chip.booked{background:rgba(52,199,89,.10);color:#248a3d}.booking-chip.to-book{background:rgba(255,159,10,.10);color:#ad5c00}.booking-chip.free{background:var(--soft);color:var(--muted)}
+.flow-more{margin-top:6px;width:max-content;font-size:8px;font-weight:650;color:var(--blue)}
+.flow-more span{display:inline-block;transition:transform .18s ease}.flow-event-body.expanded .flow-more span{transform:rotate(180deg)}
+.flow-expand{display:none;padding-top:8px}.flow-event-body.expanded .flow-expand{display:block}
+.flow-day-end{margin-top:5px;font-size:7px;font-weight:760;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)}
+
+/* TRANSPORT BETWEEN STOPS */
+.flow-transfer{min-height:37px}
+.flow-transfer-time{min-height:1px}
+.flow-transfer-rail:after{content:"";position:relative;z-index:2;width:5px;height:5px;margin-top:14px;border-radius:50%;background:var(--line)}
+.flow-transfer-body{padding:5px 0 7px;min-width:0}
+.flow-transfer-options{display:flex;gap:5px;flex-wrap:wrap}
+.flow-transfer-option{display:inline-flex;align-items:center;gap:4px;min-height:25px;padding:5px 8px;border-radius:999px;background:var(--soft);text-decoration:none;color:var(--ink);font-size:8px}
+.flow-transfer-option strong{font-size:8px;font-weight:720}.flow-transfer-option span{font-size:7px;color:var(--muted)}
+
+/* FREE TIME */
+.flow-free{min-height:42px}
+.flow-free-time{padding-top:10px;text-align:right;font-size:9px;font-weight:760;color:var(--muted);font-variant-numeric:tabular-nums}
+.flow-free-rail span{position:relative;z-index:2;width:7px;height:7px;margin-top:11px;border-radius:50%;border:1px dashed var(--faint);background:var(--bg)}
+.flow-free-body{align-self:start;margin:5px 0 10px;padding:7px 10px;border-top:.5px dashed var(--line);border-bottom:.5px dashed var(--line);display:flex;justify-content:space-between;gap:10px;color:var(--muted)}
+.flow-free-body span{font-size:10px;font-weight:700}.flow-free-body em{font-size:7.5px;font-style:normal;font-variant-numeric:tabular-nums}
+
+/* EXPANDED CONTENT */
+.details{padding:8px 0 1px;border-top:.5px solid var(--line)}
+.details p,.details li,.details .tip{font-size:11.5px;line-height:1.5;text-align:justify;hyphens:auto;color:color-mix(in srgb,var(--ink) 76%,var(--muted))}
+.details ul{padding-left:18px}
+.flow-meals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;margin-top:8px}
+.flow-meal{min-width:0;padding:7px;border-radius:10px;background:var(--soft);text-decoration:none}
+.flow-meal strong,.flow-meal span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.flow-meal strong{font-size:7.2px}.flow-meal span{margin-top:2px;font-size:6px;color:var(--muted)}
+.flow-audio-actions{display:flex;gap:12px;margin-top:9px}
+.flow-audio-actions button{padding:0;border:0;background:none;color:var(--blue);font-size:9px;font-weight:680}
+
+/* DOCK */
+.nav-liquid{position:fixed;left:50%;bottom:calc(8px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:1800;width:min(calc(100% - 22px),500px);min-height:55px;padding:5px 6px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px;border:.5px solid rgba(255,255,255,.70);border-radius:24px;background:rgba(248,248,250,.64);backdrop-filter:blur(32px) saturate(185%);-webkit-backdrop-filter:blur(32px) saturate(185%);box-shadow:0 7px 28px rgba(0,0,0,.08)}
+@media(prefers-color-scheme:dark){.nav-liquid{background:rgba(28,28,30,.72)}}
+.nav-liquid button{min-height:43px;padding:5px 2px 4px;border:0;border-radius:16px;background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;color:var(--muted);font-size:7px}
+.nav-liquid button.active{background:rgba(255,255,255,.66);color:var(--ink)}
+.nav-liquid svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
+
+/* PANELS */
+.panel-backdrop{position:fixed;inset:0;z-index:5000;display:flex;align-items:flex-end;justify-content:center;padding:0 8px calc(8px + env(safe-area-inset-bottom));background:rgba(0,0,0,.16);backdrop-filter:blur(2px)}
+.panel-card{width:min(100%,520px);height:min(67dvh,720px);overflow:hidden;border:.5px solid var(--line);border-radius:23px;background:rgba(248,248,250,.90);backdrop-filter:blur(30px) saturate(150%);box-shadow:0 -10px 34px rgba(0,0,0,.10)}
+.panel-card.panel-opaque{background:var(--surface);backdrop-filter:none;-webkit-backdrop-filter:none}
+.panel-handle{width:34px;height:4px;margin:7px auto 2px;border-radius:999px;background:color-mix(in srgb,var(--muted) 35%,transparent)}
+.panel-header{height:44px;display:flex;align-items:center;padding:2px 16px 7px;border-bottom:.5px solid var(--line)}
+.panel-header h3{margin:0;font-size:25px;letter-spacing:-.04em}
+.panel-scroll{height:calc(100% - 51px);overflow:auto;padding:2px 17px calc(20px + env(safe-area-inset-bottom));-webkit-overflow-scrolling:touch}
+
+/* FRASI / LOCALI / ATTRAZIONI */
+.mini-page{width:100%;padding:2px 0 20px}.mini-section+.mini-section{margin-top:14px}
+.mini-section-label{padding:3px 0 5px;font-size:7px;font-weight:780;letter-spacing:.11em;text-transform:uppercase;color:var(--muted)}
+.mini-row{display:grid;grid-template-columns:minmax(0,1fr) 28px;gap:10px;align-items:center;min-height:52px;padding:9px 0;border-bottom:.5px solid var(--line);background:transparent}
+.mini-main{min-width:0}.mini-top{display:flex;align-items:baseline;gap:8px;min-width:0}
+.mini-name,.phrase-primary{min-width:0;color:var(--ink);font-size:14.5px;line-height:1.15;font-weight:720;letter-spacing:-.018em;text-decoration:none}
+.mini-name{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.mini-price{flex:none;font-size:8.5px;font-weight:760;color:var(--muted)}
+.mini-secondary{margin-top:3px;font-size:8.7px;line-height:1.25;color:var(--muted)}
+.mini-tags{display:flex;gap:4px;margin-top:5px;overflow:hidden}.mini-tags span{max-width:32%;padding:3px 5px;border-radius:6px;background:var(--soft);font-size:6.4px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mini-icon-btn{width:26px;height:26px;min-width:26px;border:0;border-radius:50%;display:grid;place-items:center;background:rgba(0,122,255,.08);color:var(--blue);text-decoration:none;font-size:9px}
+.phrase-play{font-size:7.5px}.phrase-play.playing{background:var(--ink);color:var(--bg)}
+.mini-status-row{margin-top:5px}
+.search-min input{width:100%;min-height:42px;padding:9px 11px;border:0;border-radius:11px;background:var(--soft);color:var(--ink);font-size:16px;outline:none}
+.search-results{margin-top:7px}.search-row{width:100%;border-left:0;border-right:0;border-top:0;text-align:left}.search-empty{padding:18px 0;font-size:10px;color:var(--muted)}
+
+/* AUDIO */
+.audio-bar{position:fixed;left:50%;bottom:calc(76px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:1900;width:min(calc(100% - 30px),460px);min-height:48px;padding:7px 8px 6px 11px;border:.5px solid rgba(255,255,255,.70);border-radius:16px;background:rgba(248,248,250,.82);backdrop-filter:blur(22px);display:grid;grid-template-columns:minmax(0,1fr) 32px 32px;grid-template-rows:auto 3px;gap:5px;align-items:center}
+.audio-copy{min-width:0}.audio-copy strong,.audio-copy span{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.audio-copy strong{font-size:10px}.audio-copy span{font-size:7px;color:var(--muted)}
+.audio-bar button{width:32px;height:32px;border:0;border-radius:50%;background:var(--soft)}
+.audio-progress{grid-column:1/-1;height:3px;border-radius:999px;background:var(--line);overflow:hidden}.audio-progress-fill{width:0;height:100%;background:var(--blue);border-radius:999px;transition:width .2s linear}
+.trail-intro{padding:9px 0 10px;border-bottom:.5px solid var(--line)}.trail-intro strong,.trail-intro span{display:block}.trail-intro strong{font-size:11px}.trail-intro span{margin-top:3px;font-size:8px;color:var(--muted)}
+.trail-step{display:grid;grid-template-columns:28px minmax(0,1fr);gap:8px;padding:10px 0;border-bottom:.5px solid var(--line)}
+.trail-index{width:27px;height:27px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:var(--bg);font-size:7px;font-weight:800}
+.trail-top{display:flex;justify-content:space-between;gap:8px}.trail-top strong{font-size:13px}.trail-top span,.trail-where{font-size:8px;color:var(--muted)}.trail-content p{font-size:10.5px;line-height:1.45}
+.trail-audio-row{display:flex;gap:5px;margin-top:7px}.trail-audio{min-height:29px;padding:5px 9px;border:0;border-radius:9px;background:var(--soft);font-size:8.5px}.trail-stop{width:29px;height:29px;border:0;border-radius:50%;background:var(--soft);font-size:15px}
+
+@media(max-width:390px){
+  .brand{font-size:40px}.content{padding-left:10px;padding-right:11px}
+  .flow-event,.flow-transfer,.flow-free{grid-template-columns:44px 17px minmax(0,1fr);column-gap:6px}
+  .flow-title{font-size:16px}.flow-transfer-option{padding:5px 7px}
+  .panel-card{height:68dvh}.mini-row{min-height:49px;padding:8px 0}.mini-name,.phrase-primary{font-size:14px}
+  .nav-liquid{width:calc(100% - 16px);min-height:54px;padding:4px 5px}
+}
+
+
+/* V4.4 VISUAL FLOW */
+.flow-title{font-size:19px;line-height:1.03;font-weight:790;letter-spacing:-.052em}
+.flow-title-link>span{font-size:8px}
+.flow-eyebrow{margin:0 0 3px 15px;font-size:6.3px;line-height:1;font-weight:820;letter-spacing:.12em;color:var(--muted)}
+.flow-clock strong{font-size:12px;font-weight:820}.flow-clock span{margin-top:3px;font-size:7px}
+.flow-place{margin-top:4px;font-size:8px}
+.flow-photo{position:relative;width:100%;height:118px;margin-top:8px;border-radius:14px;overflow:hidden;background:var(--soft)}
+.flow-photo:after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 .5px rgba(0,0,0,.05);border-radius:inherit;pointer-events:none}
+.flow-photo img{width:100%;height:100%;display:block;object-fit:cover}
+.flow-persistent-actions{display:flex;align-items:center;gap:6px;margin-top:7px}
+.flow-persistent-actions button{min-height:27px;padding:5px 9px;border:0;border-radius:999px;background:var(--soft);color:var(--blue);font-size:8px;font-weight:720}
+.flow-persistent-actions button:first-child{background:rgba(0,122,255,.085)}
+.flow-more{margin-top:7px}
+
+/* transport stays on exactly one visual row */
+.flow-transfer{min-height:33px}
+.flow-transfer-body{min-width:0;padding:4px 0 5px;overflow:hidden}
+.flow-transfer-options{display:flex;flex-wrap:nowrap;gap:4px;width:100%;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.flow-transfer-options::-webkit-scrollbar{display:none}
+.flow-transfer-option{flex:1 0 auto;min-width:0;min-height:24px;padding:4px 7px;white-space:nowrap;justify-content:center}
+.flow-transfer-option strong{font-size:7.6px}.flow-transfer-option span{font-size:6.7px}.flow-transfer-option .transport-icon{font-size:8px}
+@media(max-width:390px){
+  .flow-title{font-size:18px}
+  .flow-photo{height:108px}
+  .flow-transfer-option{padding:4px 6px}
+  .flow-transfer-option strong{font-size:7.2px}.flow-transfer-option span{font-size:6.3px}
+}
+
+.flow-inline-actions{display:flex;align-items:center;gap:13px;min-width:0;margin-top:7px;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+.flow-inline-actions::-webkit-scrollbar{display:none}
+.flow-inline-actions button{flex:none;padding:0;min-height:18px;border:0;background:transparent;color:var(--blue);font-size:8px;line-height:18px;font-weight:650}
+.flow-inline-actions button span{display:inline-block;margin-left:2px;font-size:7px;color:var(--faint);transition:transform .18s ease}
+.flow-inline-actions .flow-details-toggle.active span{transform:rotate(180deg)}
+.flow-persistent-actions,.flow-more{display:none!important}
+.flow-event + .flow-transfer{margin-top:-9px;margin-bottom:3px}
+.flow-event + .flow-transfer .flow-transfer-rail:before{top:-10px}
+.flow-event + .flow-transfer .flow-transfer-rail:after{margin-top:9px}
+.flow-event + .flow-transfer .flow-transfer-body{padding:1px 0 6px}
+.flow-event + .flow-transfer .flow-transfer-options{gap:9px;align-items:center}
+.flow-event + .flow-transfer .flow-transfer-option{flex:0 1 auto;min-height:19px;padding:1px 0;border-radius:0;background:transparent;color:var(--muted);justify-content:flex-start}
+.flow-event + .flow-transfer .flow-transfer-option strong{font-size:7px;font-weight:680;color:var(--muted)}
+.flow-event + .flow-transfer .flow-transfer-option span{font-size:6.4px;color:var(--faint)}
+.flow-event + .flow-transfer .flow-transfer-option .transport-icon{font-size:7px;opacity:.72}
+
+/* Biglietti originali PDF */
+.ticket-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}.ticket-links-timeline{margin:5px 0 8px}.ticket-link{display:inline-flex;align-items:center;gap:5px;padding:7px 10px;border-radius:10px;background:rgba(38,105,160,.11);border:1px solid rgba(38,105,160,.24);color:inherit;font-size:12px;font-weight:650;text-decoration:none}.ticket-link:active{opacity:.7}
+
+/* Link discreto accanto a Dettagli, senza riquadri o elenco di PDF */
+.ticket-text-link{display:inline-flex;align-items:center;gap:4px;color:inherit;text-decoration:underline;text-underline-offset:3px;font-size:12px;font-weight:650;white-space:nowrap;padding:4px 2px}.ticket-text-link:active{opacity:.65}.flow-inline-actions .ticket-text-link{margin-left:2px}.mini-status-row{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+
+/* Audit leggibilita mobile: evitare testo minuscolo, tagli e sovrapposizioni */
+.flow-event,.flow-transfer,.flow-free{min-width:0}
+.flow-event-body,.flow-title-row,.flow-title,.flow-transfer-body{min-width:0}
+.flow-title{overflow-wrap:anywhere}
+.flow-title-row{flex-wrap:wrap;align-items:center}
+.flow-clock strong{font-size:12px;line-height:1.25}
+.flow-clock span{font-size:10px;line-height:1.25}
+.flow-transfer-body{overflow:visible!important}
+.flow-transfer-options,.flow-event + .flow-transfer .flow-transfer-options{display:flex;flex-wrap:wrap;overflow:visible;width:auto;gap:7px}
+.flow-transfer-option,.flow-event + .flow-transfer .flow-transfer-option{display:inline-flex;flex:0 1 auto;white-space:normal;min-height:30px;align-items:center;gap:5px;padding:5px 8px;border-radius:8px;background:var(--soft);max-width:100%;text-decoration:none}
+.flow-transfer-option strong,.flow-event + .flow-transfer .flow-transfer-option strong{font-size:11px;line-height:1.35}
+.flow-transfer-option span,.flow-event + .flow-transfer .flow-transfer-option span{font-size:10px;line-height:1.35}
+.flow-transfer-option .transport-icon,.flow-event + .flow-transfer .flow-transfer-option .transport-icon{font-size:12px}
+.flow-inline-actions{flex-wrap:wrap;white-space:normal;overflow:visible;gap:7px 14px}
+.flow-inline-actions button{font-size:12px;min-height:28px;line-height:1.4}
+.flow-inline-actions .ticket-text-link{font-size:12px;min-height:28px}
+.flow-place,.flow-eyebrow{overflow-wrap:anywhere}
+@media(max-width:390px){.flow-transfer-option,.flow-event + .flow-transfer .flow-transfer-option{padding:5px 7px}.flow-transfer-option strong,.flow-event + .flow-transfer .flow-transfer-option strong{font-size:10px}.flow-transfer-option span,.flow-event + .flow-transfer .flow-transfer-option span{font-size:9px}}
+
+/* V4.6: trasporti sempre su una sola riga, con scorrimento orizzontale se necessario */
+.flow-transfer-body{min-width:0;overflow:hidden!important}
+.flow-transfer-options,.flow-event + .flow-transfer .flow-transfer-options{display:flex!important;flex-wrap:nowrap!important;align-items:center!important;gap:8px!important;width:100%!important;max-width:100%;overflow-x:auto!important;overflow-y:hidden!important;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:3px}
+.flow-transfer-options::-webkit-scrollbar{display:none}
+.flow-transfer-option,.flow-event + .flow-transfer .flow-transfer-option{flex:0 0 auto!important;display:inline-flex!important;align-items:center!important;white-space:nowrap!important;min-height:27px!important;padding:4px 7px!important;gap:4px!important;max-width:none!important;border-radius:7px!important}
+.flow-transfer-option strong,.flow-event + .flow-transfer .flow-transfer-option strong{font-size:10px!important;line-height:1.2!important;white-space:nowrap!important}
+.flow-transfer-option span,.flow-event + .flow-transfer .flow-transfer-option span{font-size:9px!important;line-height:1.2!important;white-space:nowrap!important}
+.flow-transfer-option .transport-icon{font-size:11px!important}
+/* Uniforma Biglietti ad Audioguida e Dettagli nella timeline */
+.flow-inline-actions .ticket-text-link{display:inline-flex;align-items:center;flex:none;gap:0;margin:0;padding:0;min-height:28px;border:0;background:transparent;color:var(--blue);font-size:12px;font-weight:650;line-height:1.4;text-decoration:none;white-space:nowrap}
+.flow-inline-actions .ticket-text-link span{display:inline-block;margin-left:2px;font-size:10px;color:var(--faint)}
+
+/* V4.7 — alternative compatte, sempre visibili, senza scroll */
+.flow-transfer-options,.flow-event + .flow-transfer .flow-transfer-options{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:5px!important;overflow:visible!important;padding:0!important;max-width:100%!important}
+.flow-transfer-option,.flow-event + .flow-transfer .flow-transfer-option{display:flex!important;flex:1 1 0!important;min-width:0!important;max-width:100%!important;gap:3px!important;padding:3px 2px!important;white-space:nowrap!important;overflow:hidden!important;justify-content:flex-start!important}
+.flow-transfer-option strong,.flow-event + .flow-transfer .flow-transfer-option strong{font-size:clamp(8px,2.35vw,10px)!important;overflow:hidden!important;text-overflow:ellipsis!important;min-width:0!important;white-space:nowrap!important}
+.flow-transfer-option span,.flow-event + .flow-transfer .flow-transfer-option span{font-size:clamp(8px,2.2vw,9px)!important;flex:none!important;white-space:nowrap!important}
+.flow-transfer-option .transport-icon{font-size:10px!important;flex:none!important}
+
+/* V4.8 — dock ispirato alla navigazione Instagram: icone leggibili, selezione minimale */
+.nav-liquid{width:min(calc(100% - 20px),480px);min-height:62px;padding:6px 5px;border-radius:19px;background:rgba(250,250,252,.94);border:1px solid rgba(130,130,140,.16);box-shadow:0 3px 18px rgba(0,0,0,.09);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px)}
+.nav-liquid button{min-width:0;min-height:49px;padding:4px 1px;border-radius:12px;gap:3px;font-size:10px;font-weight:560;color:var(--ink)}
+.nav-liquid button.active{background:transparent;color:var(--blue);font-weight:750}
+.nav-liquid button.active::after{content:"";position:absolute;bottom:1px;width:18px;height:2px;border-radius:2px;background:var(--blue)}
+.nav-liquid button{position:relative}
+.nav-liquid svg{width:23px;height:23px;stroke-width:1.85}
+@media(prefers-color-scheme:dark){.nav-liquid{background:rgba(26,26,28,.94);border-color:rgba(255,255,255,.14)}}
+/* Azioni sempre sulla stessa riga, senza scroll o a capo */
+.flow-inline-actions{display:flex!important;flex-wrap:nowrap!important;white-space:nowrap!important;overflow:visible!important;gap:clamp(5px,1.6vw,12px)!important;align-items:center!important;min-width:0!important}
+.flow-inline-actions button,.flow-inline-actions .ticket-text-link{flex:0 1 auto!important;min-width:0!important;font-size:clamp(9px,2.65vw,12px)!important;white-space:nowrap!important;min-height:25px!important;line-height:1.25!important}
+.flow-inline-actions button span,.flow-inline-actions .ticket-text-link span{font-size:9px!important}
+/* Due mezzi, ognuno con durata e prezzo discreto, senza scroll */
+.flow-transfer-options,.flow-event + .flow-transfer .flow-transfer-options{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:5px!important;overflow:visible!important}
+.flow-transfer-options:has(> :only-child){grid-template-columns:minmax(0,1fr)!important}
+.flow-transfer-option,.flow-event + .flow-transfer .flow-transfer-option{display:flex!important;min-width:0!important;gap:3px!important;padding:4px 3px!important;white-space:nowrap!important;overflow:hidden!important}
+.flow-transfer-option strong,.flow-event + .flow-transfer .flow-transfer-option strong{font-size:clamp(8px,2.25vw,10px)!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}
+.flow-transfer-option .transfer-duration,.flow-event + .flow-transfer .flow-transfer-option .transfer-duration{font-size:clamp(8px,2vw,9px)!important;flex-shrink:1!important;min-width:0!important;overflow:hidden!important;text-overflow:ellipsis!important}
+.flow-transfer-option .transfer-price,.flow-event + .flow-transfer .flow-transfer-option .transfer-price{font-size:clamp(7px,1.85vw,9px)!important;opacity:.7;flex-shrink:0!important;margin-left:auto!important;white-space:nowrap!important}
+@media(max-width:370px){.flow-transfer-option .transfer-duration{display:none!important}.flow-inline-actions{gap:5px!important}}
+
+/* V5.5.10: Uber fare legible without altering the compact layout */
+.flow-transfer-option .transfer-price,.flow-event + .flow-transfer .flow-transfer-option .transfer-price{opacity:1!important;color:var(--ink)!important;font-weight:750!important;font-size:clamp(8px,2.15vw,10px)!important}
+
+/* V5.6 — gerarchia tipografica e scansione cronologica coerenti */
+.dayhead{margin:18px 0 14px;align-items:center}
+.dayhead h2{font-size:clamp(23px,6vw,28px);font-weight:780;line-height:1.13;letter-spacing:-.035em}
+.dayhead p{font-size:12px;line-height:1.4;margin-top:5px;color:var(--muted)}
+.pace{font-size:9px;letter-spacing:.025em;padding:5px 8px;flex:none}
+.day-phase{display:flex;align-items:center;gap:10px;margin:14px 0 9px 0;color:var(--muted);font-size:10px;font-weight:750;letter-spacing:.09em;text-transform:uppercase}
+.day-phase::after{content:"";height:1px;background:var(--line);flex:1}
+.flow-event,.flow-transfer,.flow-free{grid-template-columns:49px 15px minmax(0,1fr);column-gap:7px}
+.flow-clock{padding-top:6px}.flow-clock strong{font-size:12px;line-height:1.25;font-weight:780;letter-spacing:0}
+.flow-clock span{font-size:10px;line-height:1.25;color:var(--muted)}
+.flow-title{font-size:clamp(15px,4.3vw,18px);font-weight:750;line-height:1.22;letter-spacing:-.023em;align-items:baseline}
+.flow-kind{font-size:11px;color:var(--muted)}
+.flow-title-row{align-items:center;gap:6px}
+.flow-event-body{margin-bottom:11px;padding-bottom:11px}
+.flow-event:has(.flow-eyebrow) .flow-title{font-size:clamp(14px,3.8vw,16px);font-weight:670}
+.flow-eyebrow{font-size:9px;line-height:1.3;letter-spacing:.065em;margin:0 0 3px 0;font-weight:720}
+.flow-place{font-size:11px;line-height:1.35;margin-top:4px;white-space:normal;overflow:visible;text-overflow:clip}
+.booking-chip{font-size:9px;padding:4px 7px;min-height:22px}
+.flow-inline-actions{margin-top:9px;gap:clamp(6px,2vw,12px)!important}
+.flow-inline-actions button,.flow-inline-actions .ticket-text-link{font-size:clamp(10px,2.7vw,12px)!important;font-weight:650}
+.flow-free-body span{font-size:12px}.flow-free-body em{font-size:10px}
+.flow-now{font-size:9px;letter-spacing:.06em}
+.flow-day-end{font-size:10px;letter-spacing:.04em}
+.details p,.details li,.details .tip{font-size:13px;line-height:1.55;text-align:left}
+.flow-transfer-option .transfer-price{font-weight:760!important}
+@media(max-width:360px){.flow-event,.flow-transfer,.flow-free{grid-template-columns:43px 13px minmax(0,1fr);column-gap:5px}.booking-chip{font-size:8px;padding:3px 5px}.flow-title{font-size:15px}}
+
+/* V5.7.2: leggibilita e robustezza dei collegamenti */
+.flow-transfer-option .transfer-price{color:var(--ink)!important;opacity:1!important;font-weight:750!important}
+.flow-transfer-options{min-width:0!important;overflow:hidden!important}
+.flow-inline-actions{min-width:0!important;max-width:100%!important;overflow:hidden!important}
+.flow-inline-actions button,.flow-inline-actions a{min-width:0!important}
+@media(max-width:380px){.flow-transfer-option .transport-icon{display:none!important}.flow-transfer-option{gap:2px!important}.flow-transfer-option strong{font-size:9px!important}.flow-transfer-option .transfer-price{font-size:9px!important}}
+
+/* V5.8 — iPhone, barra inferiore piatta, senza cornice */
+html,body,#app{max-width:100%;overflow-x:clip}
+button,a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.nav-liquid{left:0!important;bottom:0!important;transform:none!important;width:100%!important;max-width:none!important;min-height:calc(55px + env(safe-area-inset-bottom))!important;padding:5px max(9px,env(safe-area-inset-right)) calc(5px + env(safe-area-inset-bottom)) max(9px,env(safe-area-inset-left))!important;border:0!important;border-radius:0!important;box-shadow:none!important;background:rgba(255,255,255,.96)!important;backdrop-filter:blur(18px)!important;-webkit-backdrop-filter:blur(18px)!important}
+.nav-liquid button{min-height:47px!important;min-width:0!important;font-size:10px!important;gap:3px!important}
+.nav-liquid button.active{color:var(--ink)!important}
+.nav-liquid button.active::after{display:none!important}
+.nav-liquid svg{width:25px!important;height:25px!important;stroke-width:2!important}
+@media(prefers-color-scheme:dark){.nav-liquid{background:rgba(0,0,0,.96)!important}}
+.content{padding-bottom:calc(100px + env(safe-area-inset-bottom))!important}
+.flow-transfer-options,.flow-event + .flow-transfer .flow-transfer-options{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:5px!important}
+.flow-transfer-option,.flow-event + .flow-transfer .flow-transfer-option{display:flex!important;align-items:center!important;gap:3px!important;min-width:0!important;overflow:hidden!important;padding:6px 4px!important}
+.flow-transfer-option .transfer-price,.flow-event + .flow-transfer .flow-transfer-option .transfer-price{font-size:clamp(10px,2.7vw,12px)!important;font-weight:850!important;color:var(--ink)!important;opacity:1!important;flex-shrink:0!important;margin-left:auto!important}
+.flow-transfer-option .transfer-duration{font-size:10px!important;min-width:0!important;overflow:hidden!important;text-overflow:ellipsis!important}
+.flow-transfer-option strong{font-size:10px!important;flex-shrink:0!important}
+.flow-transfer-option .transport-icon{display:none!important}
+.flow-inline-actions{display:flex!important;flex-wrap:nowrap!important;gap:clamp(5px,1.5vw,10px)!important;overflow:hidden!important}
+.flow-inline-actions button,.flow-inline-actions a{font-size:clamp(10px,2.7vw,12px)!important;white-space:nowrap!important;flex-shrink:1!important}
+@media(max-width:390px){.flow-transfer-option .transfer-duration{display:none!important}.flow-transfer-option .transfer-price{font-size:11px!important}}
+@media(max-width:350px){.flow-transfer-option strong{font-size:9px!important}.flow-transfer-option .transfer-price{font-size:10px!important}}
+
+/* iPhone 6.5 — responsiveness and reduced motion */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+button,a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+button:focus-visible,a:focus-visible{outline:2px solid #1877f2;outline-offset:2px}
+@media(max-width:375px){.content{padding-left:10px!important;padding-right:10px!important}.nav-liquid{gap:0!important}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* v6.6 — iPhone readability, touch targets, dynamic type */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+.hero-meta,.header-weather,.dayhead p,.flow-place,.flow-eyebrow,.flow-kind,.mini-secondary,.mini-section-label,.mini-price,.flow-meal strong,.flow-meal span{font-size:max(11px,1em * .72);line-height:1.35}
+.day-dow,.flow-clock span,.booking-chip,.flow-now,.flow-day-end,.pace,.flow-free-time,.flow-free-body em{font-size:10px;line-height:1.3}
+.flow-inline-actions button,.flow-inline-actions a{min-height:36px;display:inline-flex;align-items:center}
+.flow-transfer-option,.flow-event + .flow-transfer .flow-transfer-option{min-height:38px}
+.nav-liquid button{min-height:48px;font-size:10px}
+.mini-icon-btn{min-width:38px;min-height:38px}
+.flow-meal{min-height:38px}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* v6.8 — Unified iPhone visual system and persistent dock */
+:root{--bg:#f5f5f7;--surface:#fff;--ink:#17171c;--muted:#656570;--faint:#8a8a94;--line:rgba(30,30,45,.10);--blue:#2365a8;--green:#27865a;--orange:#b97518;--soft:rgba(40,50,75,.055)}
+@media(prefers-color-scheme:dark){:root{--bg:#101115;--surface:#1c1e24;--ink:#f4f5f8;--muted:#b3b5c0;--faint:#90929d;--line:rgba(240,240,250,.13);--blue:#8bbcff;--green:#7acba0;--orange:#eab76a;--soft:rgba(220,225,255,.075)}}
+body,html{background:var(--bg);color:var(--ink)}
+.hero{background:var(--bg);border-color:var(--line)}
+.nav-liquid{z-index:6000!important;background:var(--surface)!important;border:0!important;border-top:1px solid var(--line)!important;box-shadow:none!important;border-radius:0!important}
+.nav-liquid button{color:var(--muted)!important}.nav-liquid button.active{color:var(--blue)!important}
+@media(prefers-color-scheme:dark){.nav-liquid{background:var(--surface)!important}}
+/* Sheets stop above the persistent dock, including the iPhone safe area */
+.panel-backdrop{inset:0 0 calc(59px + env(safe-area-inset-bottom)) 0!important;z-index:4500!important;padding:0!important;align-items:flex-end!important;background:rgba(10,14,22,.24)!important}
+.panel-card{height:min(78dvh,760px)!important;max-height:100%!important;width:min(100%,560px)!important;border-radius:20px 20px 0 0!important;background:var(--surface)!important;color:var(--ink)!important;box-shadow:0 -8px 25px rgba(0,0,0,.10)!important}
+.panel-header{background:var(--surface);border-color:var(--line)}
+.panel-header h3{font-size:22px!important;line-height:1.2!important;font-weight:760!important;color:var(--ink)!important}
+.panel-scroll{padding-bottom:22px!important}
+/* Every itinerary title remains on one line; long titles show ellipsis but retain full title in the title attribute */
+.flow-title-row{display:flex!important;flex-wrap:nowrap!important;align-items:center!important;min-width:0!important}
+.flow-title{display:flex!important;align-items:center!important;min-width:0!important;flex:1 1 0!important;overflow:hidden!important;white-space:nowrap!important;font-size:clamp(13px,3.9vw,17px)!important;line-height:1.3!important;letter-spacing:-.025em!important;font-weight:730!important}
+.flow-title-link,.flow-title-text{display:block!important;min-width:0!important;max-width:100%!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}
+.flow-kind{flex:none!important;font-size:12px!important}
+.booking-chip{flex:none!important;white-space:nowrap!important;font-size:10px!important}
+.flow-eyebrow,.mini-section-label{font-size:10px!important;font-weight:720!important;letter-spacing:.075em!important;color:var(--muted)!important}
+.flow-place,.mini-secondary{font-size:12px!important;line-height:1.4!important;color:var(--muted)!important}
+.dayhead h1{letter-spacing:-.035em!important}.dayhead p{font-size:12px!important}
+.mini-name,.phrase-primary{font-size:15px!important;line-height:1.3!important;font-weight:690!important}
+.mini-price{font-size:11px!important;color:var(--muted)!important;font-weight:550!important}
+.mini-tags span{font-size:10px!important}.mini-icon-btn{font-size:14px!important}
+/* Prices are present but secondary to the transport type and duration */
+.flow-transfer-option .transfer-price,.flow-event + .flow-transfer .flow-transfer-option .transfer-price{font-size:10px!important;font-weight:500!important;opacity:.78!important;color:var(--muted)!important;letter-spacing:0!important}
+.flow-transfer-option strong{font-size:11px!important;font-weight:650!important}
+.flow-transfer-option .transfer-duration{font-size:10px!important;color:var(--muted)!important}
+@media(max-width:390px){.flow-transfer-option .transfer-duration{display:inline!important;font-size:9px!important}.flow-transfer-option .transfer-price{font-size:9px!important}.flow-title{font-size:13px!important}}
+@media(max-width:350px){.flow-transfer-option .transfer-duration{display:none!important}}
+.flow-inline-actions button,.flow-inline-actions a{color:var(--blue)!important}
+.audio-bar{z-index:4600!important;background:var(--surface)!important;color:var(--ink)!important}
+@media(min-width:650px){.panel-backdrop{align-items:center!important}.panel-card{border-radius:20px!important;height:min(72dvh,760px)!important}}
